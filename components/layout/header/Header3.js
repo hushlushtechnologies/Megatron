@@ -158,14 +158,14 @@ export default function Header3({
           <nav className="menu-box">
             <div className="nav-logo">
               <Link href="/">
-                <img src="/assets/images/logo/logo2@.png" alt="Logo Motorx" />
+                <img src="/assets/images/logo/logo5.png" alt="Logo Motorx" />
               </Link>
             </div>
             <div className="bottom-canvas">
               <div className="menu-outer">
                 <MobileMenu />
               </div>
-              <div className="help-bar-mobie login-box">
+              {/* <div className="help-bar-mobie login-box">
                 <a
                   data-bs-toggle="modal"
                   onClick={handleToggle1}
@@ -193,7 +193,7 @@ export default function Header3({
                   <i className="icon-Vector" />
                   Cart
                 </Link>
-              </div>
+              </div> */}
             </div>
           </nav>
         </div>
