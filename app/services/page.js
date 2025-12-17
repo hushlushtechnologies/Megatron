@@ -126,6 +126,65 @@ export default function GarageServices() {
         </div>
       </section>
 
+
+      {/* USED CAR SALES SECTION */}
+<section className="used-car-sales my-5">
+  <div className="themesflat-container">
+    <div className="row align-items-center">
+      {/* CONTENT */}
+      <div className="col-lg-6">
+        <span className="sub-title">Premium Used Cars</span>
+        <h2 className="title mb-20">
+          Certified <span className="text-red">Pre-Owned Cars</span> for Sale
+        </h2>
+
+        <p className="mb-20">
+          Along with professional garage services, Megatron Car Garage also
+          offers a curated collection of premium used cars. Each vehicle is
+          thoroughly inspected, serviced, and quality-checked before sale.
+        </p>
+
+        <ul className="mb-30">
+          <li>✔ Fully inspected & serviced vehicles</li>
+          <li>✔ Transparent history & pricing</li>
+          <li>✔ Premium brands available</li>
+          <li>✔ Test drive & instant support</li>
+        </ul>
+
+        <div className="d-flex gap-3">
+          <a href="/car-list" className="btn btn-warning px-4 py-2">
+            View Used Cars
+          </a>
+
+          {/* <a
+            href="https://wa.me/971565049928?text=Hi%20I%20am%20interested%20in%20your%20premium%20used%20cars"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-outline-dark px-4 py-2"
+          >
+            WhatsApp Us
+          </a> */}
+        </div>
+      </div>
+
+      {/* IMAGE */}
+      <div className="col-lg-6 mt-4 mt-lg-0">
+        <img
+          src="/assets/images/garage/vintage.JPG"
+          alt="Premium Used Cars"
+          style={{
+            width: "100%",
+            height: "600px",
+            objectFit: "cover",
+            borderRadius: "16px",
+          }}
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+
       {/* GALLERY SECTION */}
       <section className="garage-gallery my-5">
         <div className="themesflat-container">
@@ -139,10 +198,10 @@ export default function GarageServices() {
 
           <div className="row">
             {[
-              "/assets/images/garage/s (1).jpg",
-              "/assets/images/garage/s (2).jpg",
-              "/assets/images/garage/s (3).jpg",
-              "/assets/images/garage/s (4).jpg",
+              "/assets/images/garage/s (1).JPG",
+              "/assets/images/garage/s (2).JPG",
+              "/assets/images/garage/s (3).JPG",
+              "/assets/images/garage/s (4).JPG",
             ].map((img, index) => (
               <div key={index} className="col-lg-3 col-md-6 mb-30">
                 <div className="gallery-image">

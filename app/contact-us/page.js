@@ -20,7 +20,7 @@ export default function ContactUs() {
                                                 </svg>
                                             </div>
                                             <div className="title">Phone Number</div>
-                                            <p className="des">+(971) 565049928<br /> +(971) 0527094940 </p>
+                                            <p className="des">+(971) 565049928<br /> +(971) 542321278 </p>
                                         </div>
                                     </div>
                                     <div className="col-md-12 col-lg-4">

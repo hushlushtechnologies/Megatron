@@ -43,6 +43,25 @@ export default function CarList() {
   }, []);
   const handleToggle = () => setToggled(!isToggled);
 
+   const ITEMS_PER_PAGE = 6;
+  const [currentPage, setCurrentPage] = useState(1);
+
+  const totalPages = Math.ceil(filteredCars.length / ITEMS_PER_PAGE);
+
+  const paginatedCars = filteredCars.slice(
+    (currentPage - 1) * ITEMS_PER_PAGE,
+    currentPage * ITEMS_PER_PAGE
+  );
+
+  useEffect(() => {
+    setCurrentPage(1); // reset page when filter changes
+  }, [selectedMake]);
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, [currentPage]);
+
+
   return (
     <>
       <Layout headerStyle={1} footerStyle={1}>
@@ -420,7 +439,7 @@ export default function CarList() {
                       }
                     >
                       <div className="listing-list-car-grid ">
-                        {filteredCars.map((car) => (
+                        {paginatedCars.map((car) => (
                           <div className="listing-grid-item" key={car.id}>
                             {/* IMAGE SECTION */}
                             <div className="listing-item-image">
@@ -1412,18 +1431,44 @@ export default function CarList() {
                                                     </div>
                                                 </div> */}
                       </div>
-                      {/* <div className="tf-pagination">
-                                                <a className="prev page-numbers" href="#">
-                                                    <i className="icon-3" />
-                                                </a>
-                                                <a className="page-numbers" href="#">1</a>
-                                                <a className="page-numbers active" href="#">2</a>
-                                                <a className="page-numbers" href="#">3</a>
-                                                <a className="page-numbers" href="#">...</a>
-                                                <a className="next page-numbers" href="#">
-                                                    <i className="icon--1" />
-                                                </a>
-                                            </div> */}
+                    <div className="tf-pagination">
+  {/* PREV */}
+  <button
+    className="prev page-numbers"
+    disabled={currentPage === 1}
+    onClick={() => setCurrentPage((p) => Math.max(p - 1, 1))}
+  >
+    <i className="icon-3" />
+  </button>
+
+  {/* PAGE NUMBERS */}
+  {Array.from({ length: totalPages }).map((_, i) => {
+    const page = i + 1;
+    return (
+      <button
+        key={page}
+        className={`page-numbers ${
+          currentPage === page ? "active" : ""
+        }`}
+        onClick={() => setCurrentPage(page)}
+      >
+        {page}
+      </button>
+    );
+  })}
+
+  {/* NEXT */}
+  <button
+    className="next page-numbers"
+    disabled={currentPage === totalPages}
+    onClick={() =>
+      setCurrentPage((p) => Math.min(p + 1, totalPages))
+    }
+  >
+    <i className="icon--1" />
+  </button>
+</div>
+
                     </div>
                     <div
                       className={

@@ -52,7 +52,7 @@ export default function PopularMakesTab3() {
         >
           {/* Widget Car Service */}
           <div className="car-list-item">
-           {cars.slice(0, 9).map((car) => (
+           {cars.slice(0, 6).map((car) => (
               <div className="tf-car-service" key={car.id}>
                 {/* IMAGE + BADGES */}
                 <Link href={`/listing-details/${car.slug}`} className="image">

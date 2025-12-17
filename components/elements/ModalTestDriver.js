@@ -40,7 +40,7 @@ Hi, I would like to schedule a test drive.
               aria-label="Close"
               onClick={handleToggle4}
             />
-            <h4 className="title-form">Schedule Test Driver</h4>
+            <h4 className="title-form text-dark">Schedule Test Driver</h4>
             <form
               onSubmit={handleSubmit}
               method="post"
@@ -66,18 +66,19 @@ Hi, I would like to schedule a test drive.
                     onChange={(e) => setTime(e.target.value)}
                     required
                   >
-                    <option data-value className="option selected">
-                      10h00am - 11h00am
+                    <option value="">Select Time Slot</option>
+
+                    <option value="10:00 AM - 11:00 AM">
+                      10:00 AM - 11:00 AM
                     </option>
-                    <option data-value="11h00am - 12h00am" className="option">
-                      11h00am - 12h00am
+
+                    <option value="11:00 AM - 12:00 PM">
+                      11:00 AM - 12:00 PM
                     </option>
-                    <option data-value="13h00am - 14h00am" className="option">
-                      13h00am - 14h00am
-                    </option>
-                    <option data-value="15h00am - 16h00am" className="option">
-                      15h00am - 16h00am
-                    </option>
+
+                    <option value="1:00 PM - 2:00 PM">1:00 PM - 2:00 PM</option>
+
+                    <option value="3:00 PM - 4:00 PM">3:00 PM - 4:00 PM</option>
                   </select>
                 </div>
               </div>
@@ -96,7 +97,7 @@ Hi, I would like to schedule a test drive.
                   className="test-driver-form"
                   placeholder="Your Phone"
                   type="tel"
-                   required
+                  required
                   value={phone}
                   onChange={(e) => setPhone(e.target.value)}
                 />

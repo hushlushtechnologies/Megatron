@@ -35,7 +35,7 @@ Hi, I would like to make an offer for a car.
               onClick={handleToggle5}
             />
 
-            <h4 className="title-form">Make An Offer Price</h4>
+            <h4 className="title-form text-dark">Make An Offer Price</h4>
 
             <form
               className="offer-price-form"
