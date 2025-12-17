@@ -20,7 +20,7 @@ export default function ContactUs() {
                                                 </svg>
                                             </div>
                                             <div className="title">Phone Number</div>
-                                            <p className="des">+(971) 0527094940<br /> +(971) 0527094940 </p>
+                                            <p className="des">+(971) 565049928<br /> +(971) 0527094940 </p>
                                         </div>
                                     </div>
                                     <div className="col-md-12 col-lg-4">
@@ -55,7 +55,7 @@ export default function ContactUs() {
                                                 </svg>
                                             </div>
                                             <div className="title">Opening Hours</div>
-                                            <p className="des">Moday - Friday <br /> 09:00 AM - 05:00 PM</p>
+                                            <p className="des">Monday - Sunday <br /> 24hrs Open</p>
                                         </div>
                                     </div>
                                 </div>
@@ -63,7 +63,7 @@ export default function ContactUs() {
                                     <form action="/" id="form-contact-us-page">
                                         <div className="input-contact-us-wrap">
                                             <fieldset className="input-contact-us">
-                                                <input aria-required="true" aria-invalid="false" placeholder="Enter your name" type="text" />
+                                                <input aria-required="true" aria-invalid="false" placeholder="Enter Your Name" type="text" />
                                             </fieldset>
                                             <fieldset className="input-contact-us">
                                                 <input aria-required="true" aria-invalid="false" placeholder="Enter Email Address" type="email" />
@@ -85,7 +85,7 @@ export default function ContactUs() {
                     <div className="widget-map-contact-us">
                         <div className="themesflat-container full">
                             <div className="map4">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7224.978918975896!2d55.214357!3d25.119138!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f69f74b313df7%3A0x1b1564f522cec27e!2sCar%20Code%20Performance!5e0!3m2!1sen!2sin!4v1765864600337!5m2!1sen!2sin" height={570} style={{ border: 0, width: "100%" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.4893619386676!2d55.214367599999996!3d25.1191413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6b17a149a6ef%3A0x4f191e8c1326247a!2sOptimus%20megatron%20cars%20garage!5e0!3m2!1sen!2sin!4v1765891627367!5m2!1sen!2sin" height={570} style={{ border: 0, width: "100%" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
                             </div>
                         </div>
                     </div>

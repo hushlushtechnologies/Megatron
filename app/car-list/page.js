@@ -5,6 +5,7 @@ import cars from "@/js/data/cars";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function CarList() {
   const [activeIndex, setActiveIndex] = useState(1);
@@ -16,12 +17,10 @@ export default function CarList() {
   const selectedMake = searchParams.get("make");
 
   const filteredCars = selectedMake
-  ? cars.filter(
-      (car) =>
-        car.make?.toLowerCase() === selectedMake.toLowerCase()
-    )
-  : cars;
-
+    ? cars.filter(
+        (car) => car.make?.toLowerCase() === selectedMake.toLowerCase()
+      )
+    : cars;
 
   const [isToggled, setToggled] = useState(true);
   useEffect(() => {
@@ -53,7 +52,7 @@ export default function CarList() {
               <div className="banner-car-listing">
                 <span className="sub-title">Save up to 15%</span>
                 <h1 className="title text-white">
-                  Autohix <span className="text-red">Rental</span> Car
+                  Megatron <span className="text-red">Used</span> Car
                 </h1>
               </div>
             </div>
@@ -336,8 +335,11 @@ export default function CarList() {
                   <form action="/" className="tf-my-listing-search">
                     <div className="row">
                       <div className="col-md-6">
-                        <p className="showing">
-                          Showing 1–{filteredCars?.length} of <span className="text-red">{filteredCars?.length}</span>{" "}
+                        <p className="showing text-light">
+                          Showing 1–{filteredCars?.length} of{" "}
+                          <span className="text-red">
+                            {filteredCars?.length}
+                          </span>{" "}
                           results
                         </p>
                       </div>
@@ -482,8 +484,20 @@ export default function CarList() {
                                 </div>
                               </div>
 
-                              <a href="#" className="icon-favorite">
-                                <i className="icon-heart-1-1" />
+                              <a
+                                href={`https://wa.me/971565049928?text=${encodeURIComponent(
+                                  `Hi, I would like to know more about the ${car.title}`
+                                )}`}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="icon-favorite"
+                                title="Chat on WhatsApp"
+                              >
+                                <FaWhatsapp
+                                  color="#25D366"
+                                  className="icon-whatsapp"
+                                  size={30}
+                                />
                               </a>
 
                               {car.featured && (
@@ -495,7 +509,10 @@ export default function CarList() {
                             <div className="listing-item-content">
                               <div className="listing-top-content">
                                 <h6 className="title">
-                                  <Link href={`/listing-details/${car.id}`}>
+                                  <Link
+                                    className="text-dark"
+                                    href={`/listing-details/${car.id}`}
+                                  >
                                     {car.title}
                                   </Link>
                                 </h6>
@@ -560,10 +577,10 @@ export default function CarList() {
 
                               {/* PRICE */}
                               <div className="bottom-price-wrap">
-                                <div className="price-wrap">
-                                  <p className="price">${car.salePrice}</p>
-                                  <p className="price-sale">${car.price}</p>
-                                </div>
+                                {/* <div className="price-wrap">
+                                    <p className="price">${car.salePrice}</p>
+                                    <p className="price-sale">${car.price}</p>
+                                  </div> */}
 
                                 <div className="btn-read-more">
                                   <Link

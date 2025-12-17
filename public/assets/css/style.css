@@ -273,8 +273,8 @@ body {
   font-size: 16px;
   line-height: 28.8px;
   font-weight: 400;
-  background-color: #ffffff;
-  /* background-color: #121212; */
+  /* background-color: #ffffff; */
+  background-color: #121212;
   /* background-color: #0B0B0B; */
 
   color: #86898E;
@@ -357,7 +357,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #0D1637;
+  color: #ffffff;
   font-weight: 700;
 }
 h1 a,
@@ -366,7 +366,7 @@ h3 a,
 h4 a,
 h5 a,
 h6 a {
-  color: #0D1637;
+  color: #ffffff;
 }
 h1 a:hover,
 h2 a:hover,
@@ -5623,7 +5623,7 @@ ul.social-icon li a i:hover {
 .widget-icon-box {
   padding-top: 240px;
   padding-bottom: 84px;
-  background-color: #F2F5FB;
+  /* background-color: #F2F5FB; */
 }
 
 /*------------ Widget icon-box ---------------- */
@@ -7008,7 +7008,7 @@ a.mapboxgl-ctrl-logo {
   background-color: #ffffff;
   padding: 14px;
   border-radius: 100%;
-  color: #000000;
+  color: #25D366;
   font-size: 14px;
 }
 .listing-grid-item .listing-item-image .icon-favorite i:hover {
@@ -7469,29 +7469,31 @@ a.mapboxgl-ctrl-logo {
   width: 100%;
 }
 .post-property .wrap-car-overview .listing-info .item .listing-infor-box .content-listing-info .listing-info-title {
-  color: #000;
+  color: #fff;
   font-size: 16px;
   font-weight: 600;
   flex: 1;
 }
 .post-property .wrap-car-overview .listing-info .item .listing-infor-box .content-listing-info .listing-info-value {
-  color: #595960;
+  color: #ffff;
   font-size: 16px;
   font-weight: 500;
   flex: 1;
 }
 .post-property .wrap-car-feature .tf-listing-info #tf-features {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+   grid-template-columns: repeat(2, 1fr); 
   gap: 20px;
 }
 .post-property .wrap-car-feature .tf-listing-info #tf-features .features-item .features-type-title {
   margin-bottom: 24px;
 }
 .post-property .wrap-car-feature .tf-listing-info #tf-features .features-item .listing-feature-wrap {
-  color: #595960;
+  color: #ffff;
   font-size: 16px;
   font-weight: 500;
+  min-width: 18px;
 }
 .post-property .wrap-car-feature .tf-listing-info #tf-features .features-item .listing-feature-wrap:not(:last-child) {
   margin-bottom: 14.6px;
@@ -9858,8 +9860,8 @@ a.mapboxgl-ctrl-logo {
 
  .santa-waving {
   position: fixed;
-  bottom: 70px;
-  right: 20px;
+  bottom: 20px;
+  left: 20px;
   width: 120px;
   height: auto;
   z-index: 9999;
@@ -9880,4 +9882,89 @@ a.mapboxgl-ctrl-logo {
     bottom: 15px;
     right: 15px;
   }
+}
+
+
+.garage-gallery .gallery-image {
+  width: 100%;
+  height: 220px;          /* SAME HEIGHT */
+  border-radius: 18px;
+  overflow: hidden;
+  background: #111;
+  transition: transform 0.3s ease;
+}
+
+.garage-gallery .gallery-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;     /* Prevent stretching */
+  border-radius: 18px;
+}
+
+.garage-gallery .gallery-image:hover {
+  transform: scale(1.05);
+}
+
+/* .service-card {
+  background: #111;
+  padding: 24px;
+  border-radius: 18px;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+}
+
+.service-image {
+  width: 100%;
+  height: 200px;            
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.service-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;        
+  border-radius: 14px;
+}
+
+.service-card h5 {
+  color: #fff;
+}
+
+.service-card p {
+  color: #bbb;
+  font-size: 14px;
+} */
+.whatsapp-float {
+  position: fixed;
+  bottom: 85px;
+  right: 18px;
+  width: 60px;
+  height: 60px;
+  background-color: #25d366;
+  border-radius: 50%;
+  z-index: 9999;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45);
+}
+
+.icon-whatsapp {
+   background-color: #ffffff;
+ 
+  border-radius: 100%;
+  
 }

@@ -102,41 +102,41 @@ export default function ListingDetails({ params }) {
                         <div className="info-sale">
                           <span className="sale">-34%</span>
                         </div>
-                        <div className="info flex">
-                          <span>Make:</span>
-                          <span className="fw-4">{car.make}</span>
+                        <div className="info flex text-light">
+                          <span className="text-light">Make:</span>
+                          <span className="fw-4 text-light">{car.make}</span>
                         </div>
                         <div className="info flex">
-                          <span>Model:</span>
-                          <span className="fw-4">{car.model}</span>
+                          <span className="text-light">Model:</span>
+                          <span className="fw-4 text-light">{car.model}</span>
                         </div>
                         <div className="info flex">
-                          <span>Body:</span>
-                          <span className="fw-4">{car.bodyType}</span>
+                          <span className="text-light">Body:</span>
+                          <span className="fw-4 text-light">{car.bodyType}</span>
                         </div>
                       </div>
-                      <div className="title-heading">
+                      <div className="title-heading text-white">
                        {car.title}
                       </div>
                       <div className="text-address">
                         <i className="icon-map-1-1" />
-                        <p>{car.location.city}</p>
+                        <p className="text-white">{car.location.city}</p>
                       </div>
                     </div>
                     <div className="box-2 t-al-right">
                       <div className="icon-boxs flex">
                         <Link href="/#">
                           <i className="icon-heart-1-1" />
-                          <span>Favorite</span>
+                          <span className="text-white">Favorite</span>
                         </Link>
                         <Link href="/#">
                           <i className="icon-shuffle-2-11" />
-                          <span>Compare</span>
+                          <span className="text-white">Compare</span>
                         </Link>
                       </div>
                       <div className="price-wrap flex">
-                        <p className="price-sale">{car.price} {car.currency}</p>
-                        <p className="price">{car.salePrice} {car.currency}</p>
+                        {/* <p className="price-sale">{car.price} {car.currency}</p>
+                        <p className="price">{car.salePrice} {car.currency}</p> */}
                       </div>
                     </div>
                   </div>
@@ -622,18 +622,20 @@ export default function ListingDetails({ params }) {
                   </div>
                   <div className="author-contact-listing-wrap">
                     <div className="author-contact-wrap">
-                      <div className="author-contact-avatar">
+                      {/* <div className="author-contact-avatar">
                         <img
                           src="./assets/images/avatar/avt-admin.png"
                           title="image"
                         />
-                      </div>
+                      </div> */}
                       <div className="author-contact-info">
-                        <h4 className="name"> Admin </h4>
+                        <h4 className="name text-dark"> Admin </h4>
                         <p className="desc">Owner of listing</p>
                         <span className="number-phone">
                           <i className=" icon-Group-14" />
-                          +1900 67 xxx (show)
+                         +(971) 565049928
+
+
                         </span>
                       </div>
                     </div>

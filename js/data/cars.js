@@ -120,118 +120,118 @@ const cars = [
     },
   },
 
-  {
-    /* =========================
-     IDENTIFICATION
-  ========================== */
-    id: "hyundai-elantra-2020",
-    slug: "hyundai-elantra-2020",
+  // {
+  //   /* =========================
+  //    IDENTIFICATION
+  // ========================== */
+  //   id: "hyundai-elantra-2020",
+  //   slug: "hyundai-elantra-2020",
 
-    /* =========================
-     BADGES / FLAGS
-  ========================== */
-    featured: false,
-    discountPercent: 0,
-    condition: "Used",
-    year: 2020,
+  //   /* =========================
+  //    BADGES / FLAGS
+  // ========================== */
+  //   featured: false,
+  //   discountPercent: 0,
+  //   condition: "Used",
+  //   year: 2020,
 
-    /* =========================
-     BASIC DISPLAY INFO (Listing)
-  ========================== */
-    title: "Hyundai Elantra 2020",
-    make: "Hyundai",
-    model: "Elantra",
-    bodyType: "Sedan",
+  //   /* =========================
+  //    BASIC DISPLAY INFO (Listing)
+  // ========================== */
+  //   title: "Hyundai Elantra 2020",
+  //   make: "Hyundai",
+  //   model: "Elantra",
+  //   bodyType: "Sedan",
 
-    rating: 4,
-    reviews: 6,
+  //   rating: 4,
+  //   reviews: 6,
 
-    /* =========================
-     PRICING
-  ========================== */
-    currency: "AED",
-    price: 28000, // market price
-    salePrice: 25500, // offer price
+  //   /* =========================
+  //    PRICING
+  // ========================== */
+  //   currency: "AED",
+  //   price: 28000, // market price
+  //   salePrice: 25500, // offer price
 
-    /* =========================
-     LOCATION (Details page)
-  ========================== */
-    location: {
-      city: "Dubai",
-      state: "Dubai",
-      country: "United Arab Emirates",
-      address: "Al Aweer Auto Market, Dubai",
-    },
+  //   /* =========================
+  //    LOCATION (Details page)
+  // ========================== */
+  //   location: {
+  //     city: "Dubai",
+  //     state: "Dubai",
+  //     country: "United Arab Emirates",
+  //     address: "Al Aweer Auto Market, Dubai",
+  //   },
 
-    /* =========================
-     MEDIA
-  ========================== */
-    images: [
-      "/assets/images/hyundai/h (1).jpg",
-      "/assets/images/hyundai/h (2).jpg",
-      "/assets/images/hyundai/h (3).jpg",
-    ],
+  //   /* =========================
+  //    MEDIA
+  // ========================== */
+  //   images: [
+  //     "/assets/images/hyundai/h (1).jpg",
+  //     "/assets/images/hyundai/h (2).jpg",
+  //     "/assets/images/hyundai/h (3).jpg",
+  //   ],
 
-    /* =========================
-     QUICK SPECS (Listing cards)
-  ========================== */
-    quickSpecs: {
-      fuel: "Petrol",
-      mileage: "46,000 miles",
-      transmission: "Automatic",
-    },
+  //   /* =========================
+  //    QUICK SPECS (Listing cards)
+  // ========================== */
+  //   quickSpecs: {
+  //     fuel: "Petrol",
+  //     mileage: "46,000 miles",
+  //     transmission: "Automatic",
+  //   },
 
-    /* =========================
-     FULL OVERVIEW (Details page)
-  ========================== */
-    overview: {
-      stockNumber: "HYE2020",
-      vin: "KMHD84LF6LU123456", // placeholder VIN
-      year: 2020,
-      mileage: "46,000 miles",
-      transmission: "Automatic",
-      engineSize: "2.0L",
-      driveType: "FWD",
-      cylinders: 4,
-      fuelType: "Petrol",
-      doors: 4,
-      color: "Silver",
-      seats: 5,
-      cityMPG: 26,
-      highwayMPG: 35,
-    },
+  //   /* =========================
+  //    FULL OVERVIEW (Details page)
+  // ========================== */
+  //   overview: {
+  //     stockNumber: "HYE2020",
+  //     vin: "KMHD84LF6LU123456", // placeholder VIN
+  //     year: 2020,
+  //     mileage: "46,000 miles",
+  //     transmission: "Automatic",
+  //     engineSize: "2.0L",
+  //     driveType: "FWD",
+  //     cylinders: 4,
+  //     fuelType: "Petrol",
+  //     doors: 4,
+  //     color: "Silver",
+  //     seats: 5,
+  //     cityMPG: 26,
+  //     highwayMPG: 35,
+  //   },
 
-    /* =========================
-     DESCRIPTION (Details page)
-  ========================== */
-    description:
-      "Fuel-efficient Hyundai Elantra 2020 with modern features and comfortable seating. Smooth automatic transmission, reliable petrol engine, and excellent mileage make it ideal for daily commuting and city driving.",
+  //   /* =========================
+  //    DESCRIPTION (Details page)
+  // ========================== */
+  //   description:
+  //     "Fuel-efficient Hyundai Elantra 2020 with modern features and comfortable seating. Smooth automatic transmission, reliable petrol engine, and excellent mileage make it ideal for daily commuting and city driving.",
 
-    /* =========================
-     FEATURES (Details page)
-  ========================== */
-    features: {
-      safety: [
-        "Front airbags",
-        "ABS",
-        "Rear view camera",
-        "Electronic stability control",
-      ],
-      exterior: ["Body-colored mirrors", "Halogen headlamps", "Steel wheels"],
-      interior: [
-        "Fabric seats",
-        "Touchscreen infotainment",
-        "Bluetooth connectivity",
-        "Multi-function steering wheel",
-      ],
-      convenience: [
-        "Fuel-efficient engine",
-        "Power steering",
-        "Keyless entry",
-        "Steering mounted controls",
-      ],
-    },
-  },
+  //   /* =========================
+  //    FEATURES (Details page)
+  // ========================== */
+  //   features: {
+  //     safety: [
+  //       "Front airbags",
+  //       "ABS",
+  //       "Rear view camera",
+  //       "Electronic stability control",
+  //     ],
+  //     exterior: ["Body-colored mirrors", "Halogen headlamps", "Steel wheels"],
+  //     interior: [
+  //       "Fabric seats",
+  //       "Touchscreen infotainment",
+  //       "Bluetooth connectivity",
+  //       "Multi-function steering wheel",
+  //     ],
+  //     convenience: [
+  //       "Fuel-efficient engine",
+  //       "Power steering",
+  //       "Keyless entry",
+  //       "Steering mounted controls",
+  //     ],
+  //   },
+  // },
   {
     /* =========================
      IDENTIFICATION
@@ -279,11 +279,11 @@ const cars = [
      MEDIA
   ========================== */
     images: [
-      "/assets/images/mazda/m (5).jpg",
-      "/assets/images/mazda/m (3).jpg",
-      "/assets/images/mazda/m (4).jpg",
       "/assets/images/mazda/m (1).jpg",
       "/assets/images/mazda/m (2).jpg",
+      "/assets/images/mazda/m (3).jpg",
+      "/assets/images/mazda/m (4).jpg",
+      "/assets/images/mazda/m (5).jpg",
       "/assets/images/mazda/m (6).jpg",
       "/assets/images/mazda/m (7).jpg",
       "/assets/images/mazda/m (8).jpg",
@@ -353,131 +353,131 @@ const cars = [
     },
   },
 
-  {
-    /* =========================
-     IDENTIFICATION
-  ========================== */
-    id: "lexus-is-350-2021",
-    slug: "lexus-is-350-2021",
+  // {
+  //   /* =========================
+  //    IDENTIFICATION
+  // ========================== */
+  //   id: "lexus-is-350-2021",
+  //   slug: "lexus-is-350-2021",
 
-    /* =========================
-     BADGES / FLAGS
-  ========================== */
-    featured: true,
-    discountPercent: 5,
-    condition: "Used",
-    year: 2021,
+  //   /* =========================
+  //    BADGES / FLAGS
+  // ========================== */
+  //   featured: true,
+  //   discountPercent: 5,
+  //   condition: "Used",
+  //   year: 2021,
 
-    /* =========================
-     BASIC DISPLAY INFO (Listing)
-  ========================== */
-    title: "Lexus IS 350 2021",
-    make: "Lexus",
-    model: "IS 350",
-    bodyType: "Sedan",
+  //   /* =========================
+  //    BASIC DISPLAY INFO (Listing)
+  // ========================== */
+  //   title: "Lexus IS 350 2021",
+  //   make: "Lexus",
+  //   model: "IS 350",
+  //   bodyType: "Sedan",
 
-    rating: 5,
-    reviews: 10,
+  //   rating: 5,
+  //   reviews: 10,
 
-    /* =========================
-     PRICING
-  ========================== */
-    currency: "AED",
-    price: 110000, // market price
-    salePrice: 105000, // offer price
+  //   /* =========================
+  //    PRICING
+  // ========================== */
+  //   currency: "AED",
+  //   price: 110000, // market price
+  //   salePrice: 105000, // offer price
 
-    /* =========================
-     LOCATION (Details page)
-  ========================== */
-    location: {
-      city: "Dubai",
-      state: "Dubai",
-      country: "United Arab Emirates",
-      address: "Al Aweer Auto Market, Dubai",
-    },
+  //   /* =========================
+  //    LOCATION (Details page)
+  // ========================== */
+  //   location: {
+  //     city: "Dubai",
+  //     state: "Dubai",
+  //     country: "United Arab Emirates",
+  //     address: "Al Aweer Auto Market, Dubai",
+  //   },
 
-    /* =========================
-     MEDIA
-  ========================== */
-    images: [
-      "/assets/images/lexus/lexus (1).jpg",
-      "/assets/images/lexus/lexus (2).jpg",
-      "/assets/images/lexus/lexus (3).jpg",
-      "/assets/images/lexus/lexus (4).jpg",
-      "/assets/images/lexus/lexus (5).jpg",
-      "/assets/images/lexus/lexus (6).jpg",
-      "/assets/images/lexus/lexus (7).jpg",
-      "/assets/images/lexus/lexus (8).jpg",
-    ],
+  //   /* =========================
+  //    MEDIA
+  // ========================== */
+  //   images: [
+  //     "/assets/images/lexus/lexus (1).jpg",
+  //     "/assets/images/lexus/lexus (2).jpg",
+  //     "/assets/images/lexus/lexus (3).jpg",
+  //     "/assets/images/lexus/lexus (4).jpg",
+  //     "/assets/images/lexus/lexus (5).jpg",
+  //     "/assets/images/lexus/lexus (6).jpg",
+  //     "/assets/images/lexus/lexus (7).jpg",
+  //     "/assets/images/lexus/lexus (8).jpg",
+  //   ],
 
-    /* =========================
-     QUICK SPECS (Listing cards)
-  ========================== */
-    quickSpecs: {
-      fuel: "Petrol",
-      mileage: "85,000 km",
-      transmission: "Automatic",
-    },
+  //   /* =========================
+  //    QUICK SPECS (Listing cards)
+  // ========================== */
+  //   quickSpecs: {
+  //     fuel: "Petrol",
+  //     mileage: "85,000 km",
+  //     transmission: "Automatic",
+  //   },
 
-    /* =========================
-     FULL OVERVIEW (Details page)
-  ========================== */
-    overview: {
-      stockNumber: "LIS35021",
-      vin: "JTHBZ1D26M5012345", // placeholder VIN
-      year: 2021,
-      mileage: "85,000 km",
-      transmission: "Automatic",
-      engineSize: "3.5L V6",
-      driveType: "RWD",
-      cylinders: 6,
-      fuelType: "Petrol",
-      doors: 4,
-      color: "Black",
-      seats: 5,
-      cityMPG: 19,
-      highwayMPG: 26,
-      specs: "GCC Specs",
-      steeringSide: "LHD",
-    },
+  //   /* =========================
+  //    FULL OVERVIEW (Details page)
+  // ========================== */
+  //   overview: {
+  //     stockNumber: "LIS35021",
+  //     vin: "JTHBZ1D26M5012345", // placeholder VIN
+  //     year: 2021,
+  //     mileage: "85,000 km",
+  //     transmission: "Automatic",
+  //     engineSize: "3.5L V6",
+  //     driveType: "RWD",
+  //     cylinders: 6,
+  //     fuelType: "Petrol",
+  //     doors: 4,
+  //     color: "Black",
+  //     seats: 5,
+  //     cityMPG: 19,
+  //     highwayMPG: 26,
+  //     specs: "GCC Specs",
+  //     steeringSide: "LHD",
+  //   },
 
-    /* =========================
-     DESCRIPTION (Details page)
-  ========================== */
-    description:
-      "Powerful and luxurious Lexus IS 350 2021 featuring a 3.5L V6 engine with exceptional performance. Premium interior, smooth automatic transmission, and renowned Lexus reliability make it an excellent choice for enthusiasts and daily drivers alike.",
+  //   /* =========================
+  //    DESCRIPTION (Details page)
+  // ========================== */
+  //   description:
+  //     "Powerful and luxurious Lexus IS 350 2021 featuring a 3.5L V6 engine with exceptional performance. Premium interior, smooth automatic transmission, and renowned Lexus reliability make it an excellent choice for enthusiasts and daily drivers alike.",
 
-    /* =========================
-     FEATURES (Details page)
-  ========================== */
-    features: {
-      safety: [
-        "Front & side airbags",
-        "ABS",
-        "Traction control",
-        "Parking sensors",
-        "Rear view camera",
-      ],
-      exterior: [
-        "Alloy wheels",
-        "LED headlights",
-        "Sunroof",
-        "Body-colored mirrors",
-      ],
-      interior: [
-        "Leather seats",
-        "Touchscreen infotainment",
-        "Dual-zone climate control",
-        "Multi-function steering wheel",
-      ],
-      convenience: [
-        "Keyless entry",
-        "Push start",
-        "Power steering",
-        "Cruise control",
-      ],
-    },
-  },
+  //   /* =========================
+  //    FEATURES (Details page)
+  // ========================== */
+  //   features: {
+  //     safety: [
+  //       "Front & side airbags",
+  //       "ABS",
+  //       "Traction control",
+  //       "Parking sensors",
+  //       "Rear view camera",
+  //     ],
+  //     exterior: [
+  //       "Alloy wheels",
+  //       "LED headlights",
+  //       "Sunroof",
+  //       "Body-colored mirrors",
+  //     ],
+  //     interior: [
+  //       "Leather seats",
+  //       "Touchscreen infotainment",
+  //       "Dual-zone climate control",
+  //       "Multi-function steering wheel",
+  //     ],
+  //     convenience: [
+  //       "Keyless entry",
+  //       "Push start",
+  //       "Power steering",
+  //       "Cruise control",
+  //     ],
+  //   },
+  // },
   {
     /* =========================
      IDENTIFICATION
@@ -773,13 +773,16 @@ const cars = [
      MEDIA
   ========================== */
     images: [
-      "/assets/images/dodge/dodge (9).jpg",
-      "/assets/images/dodge/dodge (10).jpg",
-      "/assets/images/dodge/dodge (7).jpg",
       "/assets/images/dodge/dodge (1).jpg",
+      "/assets/images/dodge/dodge (2).jpg",
       "/assets/images/dodge/dodge (3).jpg",
       "/assets/images/dodge/dodge (4).jpg",
       "/assets/images/dodge/dodge (5).jpg",
+      "/assets/images/dodge/dodge (6).jpg",
+      "/assets/images/dodge/dodge (7).jpg",
+      "/assets/images/dodge/dodge (8).jpg",
+      "/assets/images/dodge/dodge (9).jpg",
+      "/assets/images/dodge/dodge (10).jpg",
     ],
 
     /* =========================
@@ -850,134 +853,134 @@ const cars = [
       ],
     },
   },
-  {
-    /* =========================
-     IDENTIFICATION
-  ========================== */
-    id: "nissan-armada-2020",
-    slug: "nissan-armada-2020",
+  // {
+  //   /* =========================
+  //    IDENTIFICATION
+  // ========================== */
+  //   id: "nissan-armada-2020",
+  //   slug: "nissan-armada-2020",
 
-    /* =========================
-     BADGES / FLAGS
-  ========================== */
-    featured: true,
-    discountPercent: 7,
-    condition: "Used",
-    year: 2020,
+  //   /* =========================
+  //    BADGES / FLAGS
+  // ========================== */
+  //   featured: true,
+  //   discountPercent: 7,
+  //   condition: "Used",
+  //   year: 2020,
 
-    /* =========================
-     BASIC DISPLAY INFO (Listing)
-  ========================== */
-    title: "Nissan Armada 2020",
-    make: "Nissan",
-    model: "Armada",
-    bodyType: "SUV",
+  //   /* =========================
+  //    BASIC DISPLAY INFO (Listing)
+  // ========================== */
+  //   title: "Nissan Armada 2020",
+  //   make: "Nissan",
+  //   model: "Armada",
+  //   bodyType: "SUV",
 
-    rating: 4,
-    reviews: 9,
+  //   rating: 4,
+  //   reviews: 9,
 
-    /* =========================
-     PRICING
-  ========================== */
-    currency: "AED",
-    price: 62000, // market price
-    salePrice: 58000, // offer price
+  //   /* =========================
+  //    PRICING
+  // ========================== */
+  //   currency: "AED",
+  //   price: 62000, // market price
+  //   salePrice: 58000, // offer price
 
-    /* =========================
-     LOCATION (Details page)
-  ========================== */
-    location: {
-      city: "Dubai",
-      state: "Dubai",
-      country: "United Arab Emirates",
-      address: "Al Aweer Auto Market, Dubai",
-    },
+  //   /* =========================
+  //    LOCATION (Details page)
+  // ========================== */
+  //   location: {
+  //     city: "Dubai",
+  //     state: "Dubai",
+  //     country: "United Arab Emirates",
+  //     address: "Al Aweer Auto Market, Dubai",
+  //   },
 
-    /* =========================
-     MEDIA
-  ========================== */
-    images: [
-      "/assets/images/nissann/nissann (1).jpg",
-      "/assets/images/nissann/nissann (2).jpg",
-      "/assets/images/nissann/nissann (3).jpg",
-      "/assets/images/nissann/nissann (4).jpg",
-      "/assets/images/nissann/nissann (5).jpg",
-      "/assets/images/nissann/nissann (6).jpg",
-      "/assets/images/nissann/nissann (7).jpg",
-      "/assets/images/nissann/nissann (8).jpg",
-      "/assets/images/nissann/nissann (9).jpg",
-      "/assets/images/nissann/nissann (10).jpg",
-      "/assets/images/nissann/nissann (11).jpg",
-    ],
+  //   /* =========================
+  //    MEDIA
+  // ========================== */
+  //   images: [
+  //     "/assets/images/nissann/nissann (1).jpg",
+  //     "/assets/images/nissann/nissann (2).jpg",
+  //     "/assets/images/nissann/nissann (3).jpg",
+  //     "/assets/images/nissann/nissann (4).jpg",
+  //     "/assets/images/nissann/nissann (5).jpg",
+  //     "/assets/images/nissann/nissann (6).jpg",
+  //     "/assets/images/nissann/nissann (7).jpg",
+  //     "/assets/images/nissann/nissann (8).jpg",
+  //     "/assets/images/nissann/nissann (9).jpg",
+  //     "/assets/images/nissann/nissann (10).jpg",
+  //     "/assets/images/nissann/nissann (11).jpg",
+  //   ],
 
-    /* =========================
-     QUICK SPECS (Listing cards)
-  ========================== */
-    quickSpecs: {
-      fuel: "Petrol",
-      mileage: "88,000 miles",
-      transmission: "Automatic",
-    },
+  //   /* =========================
+  //    QUICK SPECS (Listing cards)
+  // ========================== */
+  //   quickSpecs: {
+  //     fuel: "Petrol",
+  //     mileage: "88,000 miles",
+  //     transmission: "Automatic",
+  //   },
 
-    /* =========================
-     FULL OVERVIEW (Details page)
-  ========================== */
-    overview: {
-      stockNumber: "NA2020",
-      vin: "JN8AY2NC8L9123456", // placeholder VIN
-      year: 2020,
-      mileage: "88,000 miles",
-      transmission: "Automatic",
-      engineSize: "5.6L V8",
-      driveType: "RWD",
-      cylinders: 8,
-      fuelType: "Petrol",
-      doors: 5,
-      color: "Black",
-      seats: 7,
-      cityMPG: 14,
-      highwayMPG: 19,
-      specs: "GCC Specs",
-      steeringSide: "LHD",
-    },
+  //   /* =========================
+  //    FULL OVERVIEW (Details page)
+  // ========================== */
+  //   overview: {
+  //     stockNumber: "NA2020",
+  //     vin: "JN8AY2NC8L9123456", // placeholder VIN
+  //     year: 2020,
+  //     mileage: "88,000 miles",
+  //     transmission: "Automatic",
+  //     engineSize: "5.6L V8",
+  //     driveType: "RWD",
+  //     cylinders: 8,
+  //     fuelType: "Petrol",
+  //     doors: 5,
+  //     color: "Black",
+  //     seats: 7,
+  //     cityMPG: 14,
+  //     highwayMPG: 19,
+  //     specs: "GCC Specs",
+  //     steeringSide: "LHD",
+  //   },
 
-    /* =========================
-     DESCRIPTION (Details page)
-  ========================== */
-    description:
-      "Powerful and spacious Nissan Armada 2020 offering full-size SUV luxury and performance. Equipped with a strong V8 engine, smooth automatic transmission, and seating for seven, making it ideal for families and long-distance travel.",
+  //   /* =========================
+  //    DESCRIPTION (Details page)
+  // ========================== */
+  //   description:
+  //     "Powerful and spacious Nissan Armada 2020 offering full-size SUV luxury and performance. Equipped with a strong V8 engine, smooth automatic transmission, and seating for seven, making it ideal for families and long-distance travel.",
 
-    /* =========================
-     FEATURES (Details page)
-  ========================== */
-    features: {
-      safety: [
-        "Front & side airbags",
-        "ABS",
-        "Traction control",
-        "Parking sensors",
-        "Rear view camera",
-      ],
-      exterior: [
-        "Alloy wheels",
-        "LED headlights",
-        "Roof rails",
-        "Power tailgate",
-      ],
-      interior: [
-        "Leather seats",
-        "Touchscreen infotainment",
-        "Tri-zone climate control",
-        "Multi-function steering wheel",
-      ],
-      convenience: [
-        "Keyless entry",
-        "Push start",
-        "Power steering",
-        "Cruise control",
-      ],
-    },
-  },
+  //   /* =========================
+  //    FEATURES (Details page)
+  // ========================== */
+  //   features: {
+  //     safety: [
+  //       "Front & side airbags",
+  //       "ABS",
+  //       "Traction control",
+  //       "Parking sensors",
+  //       "Rear view camera",
+  //     ],
+  //     exterior: [
+  //       "Alloy wheels",
+  //       "LED headlights",
+  //       "Roof rails",
+  //       "Power tailgate",
+  //     ],
+  //     interior: [
+  //       "Leather seats",
+  //       "Touchscreen infotainment",
+  //       "Tri-zone climate control",
+  //       "Multi-function steering wheel",
+  //     ],
+  //     convenience: [
+  //       "Keyless entry",
+  //       "Push start",
+  //       "Power steering",
+  //       "Cruise control",
+  //     ],
+  //   },
+  // },
   {
     /* =========================
      IDENTIFICATION
@@ -1891,10 +1894,16 @@ const cars = [
      MEDIA
   ========================== */
     images: [
-      "/assets/images/sentra-2016/sentra 2016 (4).jpg",
-      "/assets/images/sentra-2016/sentra 2016 (5).jpg",
       "/assets/images/sentra-2016/sentra 2016 (1).jpg",
       "/assets/images/sentra-2016/sentra 2016 (2).jpg",
+      "/assets/images/sentra-2016/sentra 2016 (3).jpg",
+      "/assets/images/sentra-2016/sentra 2016 (4).jpg",
+      "/assets/images/sentra-2016/sentra 2016 (5).jpg",
+      "/assets/images/sentra-2016/sentra 2016 (6).jpg",
+      "/assets/images/sentra-2016/sentra 2016 (7).jpg",
+      "/assets/images/sentra-2016/sentra 2016 (8).jpg",
+      "/assets/images/sentra-2016/sentra 2016 (9).jpg",
+      "/assets/images/sentra-2016/sentra 2016 (10).jpg",
     ],
 
     /* =========================

@@ -34,7 +34,7 @@ export default function Footer1() {
                   </li>
                   <li>
                     <i className="icon-Group-1" />
-                    <p>optimusmegatroncars@gmail.com</p>
+                    <span className="text-light">optimusmegatroncars@gmail.com</span>
                   </li>
                 </ul>
               </div>
@@ -140,23 +140,19 @@ export default function Footer1() {
             <div className="col-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
               <ul className="social-icon">
                 <li>
-                  <Link href="/#">
+                  <Link href="https://www.facebook.com/share/17kcTuTFUC/">
                     <i className="icon-6" />
                   </Link>
                 </li>
+              
                 <li>
-                  <Link href="/#">
-                    <i className="icon-4" />
+                  <Link href="https://www.instagram.com/optimus_megatron_cars?igsh=MXgzaTNuaDc2dmQ4cg==">
+                    <i className="icon-11" />
                   </Link>
                 </li>
                 <li>
-                  <Link href="/#">
-                    <i className="icon-5" />
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/#">
-                    <i className="icon-7" />
+                  <Link href="https://www.youtube.com/@OptimusMegatronCarsUAE/videos">
+                    <i className="icon-8" />
                   </Link>
                 </li>
               </ul>

@@ -23,7 +23,7 @@ export default function Header3({
                   <li>
                     <Link href="/#">
                       <i className="icon-Group-11" />
-                      <p>Hot Line: +(971) 0527094940</p>
+                      <p>Hot Line: +(971) 565049928</p>
                     </Link>
                   </li>
                   <li>
@@ -37,18 +37,18 @@ export default function Header3({
               <div className="col-md-3">
                 <ul className="icon-topbar">
                   <li>
-                    <Link href="/#">
+                    <Link href="https://www.facebook.com/share/17kcTuTFUC/">
                       <i className="icon-6" />
                     </Link>
                   </li>
                   <li>
-                    <Link href="/#">
+                    <Link href="https://www.instagram.com/optimus_megatron_cars?igsh=MXgzaTNuaDc2dmQ4cg==">
                       <i className="icon-11" />
                     </Link>
                   </li>
 
                   <li>
-                    <Link href="/#">
+                    <Link href="https://www.youtube.com/@OptimusMegatronCarsUAE/videos">
                       <i className="icon-8" />
                     </Link>
                   </li>
@@ -99,7 +99,7 @@ export default function Header3({
                                                         </ul> */}
                           </li>
                           <li className="dropdown">
-                            <Link href="/#">Services</Link>
+                            <Link href="/services">Services</Link>
                             <ul>
                               {/* <li><Link href="/dashboard">Dashboard</Link></li>
                                                             <li><Link href="/my-inventory">My Inventory</Link></li>

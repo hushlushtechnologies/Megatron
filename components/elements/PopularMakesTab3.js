@@ -147,7 +147,7 @@ export default function PopularMakesTab3() {
                   </span>
 
                   <h6 className="title">
-                    <Link href={`/listing-details/${car.slug}`}>
+                    <Link className="text-dark" href={`/listing-details/${car.slug}`}>
                       {car.title}
                     </Link>
                   </h6>

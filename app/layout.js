@@ -6,6 +6,7 @@ import "/public/assets/css/style.css"
 
 import { DM_Sans, Plus_Jakarta_Sans } from 'next/font/google'
 import SantaWaving from "@/components/elements/SantaWaving"
+import WhatsAppFloat from "@/components/elements/Whatsapp"
 const jakarta = Plus_Jakarta_Sans({
     weight: ['300', '400', '500', '600', '700'],
     subsets: ['latin'],
@@ -34,6 +35,7 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en">
             <body className={`body counter-scroll ${dm.variable} ${jakarta.variable}`}>
+                <WhatsAppFloat/>
                 <SantaWaving/>
                   <ChristmasSnow/>
                 {children}</body>

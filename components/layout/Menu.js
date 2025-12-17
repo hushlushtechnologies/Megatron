@@ -21,15 +21,15 @@ export default function Menu() {
                         <li className={pathname == "/home06" ? "current" : ""}><Link href="/home06">Home Page 06</Link></li>
                     </ul> */}
                 </li>
-                <li className="dropdown">
-                    <Link href="/#">Cars</Link>
+                <li className={pathname == "/car-list" ? "current" : ""}>
+                    <Link href="/car-list">Cars</Link>
                     {/* <ul>
                         <li className={pathname == "/car-list" ? "current" : ""}><Link href="/car-list">Car Listings</Link></li>
                         <li className={pathname == "/listing-details" ? "current" : ""}><Link href="/listing-details">Listings Details</Link></li>
                     </ul> */}
                 </li>
-                <li className="dropdown">
-                    <Link href="/#">Services</Link>
+                <li className={pathname == "/services" ? "current" : ""}>
+                    <Link href="/services">Services</Link>
                     {/* <ul>
                         <li className={pathname == "/dashboard" ? "current" : ""}><Link href="/dashboard">Dashboard</Link></li>
                         <li className={pathname == "/my-inventory" ? "current" : ""}><Link href="/my-inventory">My Inventory</Link></li>
