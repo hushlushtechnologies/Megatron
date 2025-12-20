@@ -159,8 +159,8 @@ Hi, I am contacting from Optimus Megatron Cars website.
                         </Link>
                       </div>
                       <div className="price-wrap flex text-white">
-                        <p className="price-sale text-white">{Number(car.price).toLocaleString()}{car.currency}</p>
-                        <p className="price text-warning">{Number(car.salePrice).toLocaleString()} {car.currency}</p>
+                        <p className="price-sale text-white">{Number(car.salePrice).toLocaleString()}{car.currency}</p>
+                        <p className="price text-warning">{Number(car.price).toLocaleString()} {car.currency}</p>
                       </div>
                     </div>
                   </div>
