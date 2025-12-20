@@ -120,14 +120,14 @@ export default function CarListV2({ h5 }) {
               <div className="price-group">
                 {car.salePrice && (
                   <span className="price-sale">
-                    {car.currency}{car.salePrice}
+                    {car.currency} {Number(car.salePrice).toLocaleString()}
                   </span>
                 )}
-                {car.price && (
+                {/* {car.price && (
                   <span className="price">
                     {car.currency}{car.price}
                   </span>
-                )}
+                )} */}
               </div>
 
               <div className="btn-group">
@@ -228,14 +228,14 @@ export default function CarListV2({ h5 }) {
               <div className="price-group">
                 {car.salePrice && (
                   <span className="price-sale">
-                    {car.currency}{car.salePrice}
+                    {car.currency} {Number(car.salePrice).toLocaleString()}
                   </span>
                 )}
-                {car.price && (
+                {/* {car.price && (
                   <span className="price">
                     {car.currency}{car.price}
                   </span>
-                )}
+                )} */}
               </div>
 
               <div className="btn-group">

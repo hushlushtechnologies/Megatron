@@ -29,8 +29,8 @@ const cars = [
      PRICING
   ========================== */
     currency: "AED",
-    price: 45000, // assumed market price
-    salePrice: 42000, // assumed offer price
+    price: 48000, // assumed market price
+    salePrice: 45000, // assumed offer price
 
     /* =========================
      LOCATION (Details page)
@@ -262,8 +262,8 @@ const cars = [
      PRICING
   ========================== */
     currency: "AED",
-    price: 35000, // estimated market price
-    salePrice: 32000, // estimated offer price
+    price: 42000, // estimated market price
+    salePrice: 40000, // estimated offer price
 
     /* =========================
      LOCATION (Details page)
@@ -508,8 +508,8 @@ const cars = [
      PRICING
   ========================== */
     currency: "AED",
-    price: 35000, // market price
-    salePrice: 32500, // offer price
+    price: 42000, // market price
+    salePrice: 40000, // offer price
 
     /* =========================
      LOCATION (Details page)
@@ -629,8 +629,8 @@ const cars = [
      PRICING
   ========================== */
     currency: "AED",
-    price: 65000, // market price
-    salePrice: 60000, // offer price
+    price: 72000, // market price
+    salePrice: 70000, // offer price
 
     /* =========================
      LOCATION (Details page)
@@ -756,8 +756,8 @@ const cars = [
      PRICING
   ========================== */
     currency: "AED",
-    price: 52000, // market price
-    salePrice: 49000, // offer price
+    price: 67000, // market price
+    salePrice: 65000, // offer price
 
     /* =========================
      LOCATION (Details page)
@@ -1011,8 +1011,8 @@ const cars = [
      PRICING
   ========================== */
     currency: "AED",
-    price: 40000, // market price
-    salePrice: 37000, // offer price
+    price: 57000, // market price
+    salePrice: 55000, // offer price
 
     /* =========================
      LOCATION (Details page)
@@ -1124,9 +1124,9 @@ const cars = [
     /* =========================
      PRICING
   ========================== */
-    currency: "USD",
-    price: null, // not provided
-    salePrice: null, // not provided
+    currency: "AED",
+    price: "122000", // not provided
+    salePrice: "120000", // not provided
 
     /* =========================
      LOCATION (Details page)
@@ -1256,9 +1256,9 @@ const cars = [
     /* =========================
      PRICING
   ========================== */
-    currency: "USD",
-    price: null, // not provided
-    salePrice: null, // not provided
+    currency: "AED",
+    price: "37000", // not provided
+    salePrice: "35000", // not provided
 
     /* =========================
      LOCATION (Details page)
@@ -1374,9 +1374,9 @@ const cars = [
     /* =========================
      PRICING
   ========================== */
-    currency: "USD",
-    price: null, // not provided
-    salePrice: null, // not provided
+    currency: "AED",
+    price: "62000", // not provided
+    salePrice: "60000", // not provided
 
     /* =========================
      LOCATION (Details page)
@@ -1495,9 +1495,9 @@ const cars = [
     /* =========================
      PRICING
   ========================== */
-    currency: "USD",
-    price: null, // not provided
-    salePrice: null, // not provided
+    currency: "AED",
+    price: "102000", // not provided
+    salePrice: "100000", // not provided
 
     /* =========================
      LOCATION (Details page)
@@ -1624,9 +1624,9 @@ const cars = [
     /* =========================
      PRICING
   ========================== */
-    currency: "USD",
-    price: null, // not provided
-    salePrice: null, // not provided
+    currency: "AED",
+    price: "122000", // not provided
+    salePrice: 120000, // not provided
 
     /* =========================
      LOCATION (Details page)
@@ -1755,9 +1755,9 @@ const cars = [
     /* =========================
      PRICING
   ========================== */
-    currency: "JPY",
-    price: null, // not provided
-    salePrice: null, // not provided
+    currency: "AED",
+    price: "32000", // not provided
+    salePrice: "30000", // not provided
 
     /* =========================
      LOCATION (Details page)

@@ -158,9 +158,9 @@ Hi, I am contacting from Optimus Megatron Cars website.
                           <span className="text-white">Compare</span>
                         </Link>
                       </div>
-                      <div className="price-wrap flex">
-                        {/* <p className="price-sale">{car.price} {car.currency}</p>
-                        <p className="price">{car.salePrice} {car.currency}</p> */}
+                      <div className="price-wrap flex text-white">
+                        <p className="price-sale text-white">{Number(car.price).toLocaleString()}{car.currency}</p>
+                        <p className="price text-warning">{Number(car.salePrice).toLocaleString()} {car.currency}</p>
                       </div>
                     </div>
                   </div>

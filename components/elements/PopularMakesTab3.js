@@ -12,7 +12,7 @@ export default function PopularMakesTab3() {
       <div className="header-section tab-car-service">
         <div className="heading-section">
           <span className="sub-title mb-6 wow fadeInUp">
-             Trusted Used Car Dealer
+            Trusted Used Car Dealer
           </span>
           <h2 className="title wow fadeInUp">Explore all Vehicles</h2>
         </div>
@@ -52,7 +52,7 @@ export default function PopularMakesTab3() {
         >
           {/* Widget Car Service */}
           <div className="car-list-item">
-           {cars.slice(0, 6).map((car) => (
+            {cars.slice(0, 6).map((car) => (
               <div className="tf-car-service" key={car.id}>
                 {/* IMAGE + BADGES */}
                 <Link href={`/listing-details/${car.slug}`} className="image">
@@ -147,15 +147,17 @@ export default function PopularMakesTab3() {
                   </span>
 
                   <h6 className="title">
-                    <Link className="text-dark" href={`/listing-details/${car.slug}`}>
+                    <Link
+                      className="text-dark"
+                      href={`/listing-details/${car.slug}`}
+                    >
                       {car.title}
                     </Link>
                   </h6>
 
                   {car.salePrice && (
                     <span className="price">
-                      {car.currency}
-                      {car.salePrice}
+                      {`${car.currency} ${Number(car.salePrice).toLocaleString()}`}
                     </span>
                   )}
 
@@ -347,7 +349,6 @@ export default function PopularMakesTab3() {
                 </div>
               </div>
             </div> */}
-            
           </div>
           {/* Widget Car Service */}
         </div>
