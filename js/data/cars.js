@@ -994,12 +994,12 @@ const cars = [
     featured: false,
     discountPercent: 0,
     condition: "Used",
-    year: 2018,
+    year:"2019" ,
 
     /* =========================
      BASIC DISPLAY INFO (Listing)
   ========================== */
-    title: "Ford Explorer 2018",
+    title: "Ford Explorer 2019",
     make: "Ford",
     model: "Explorer",
     bodyType: "SUV",
@@ -1231,8 +1231,8 @@ const cars = [
     /* =========================
      IDENTIFICATION
   ========================== */
-    id: "hyundai-sonata-sport-2019",
-    slug: "hyundai-sonata-sport-2019",
+    id: "hyundai-sonata-sport-2018",
+    slug: "hyundai-sonata-sport-2018",
 
     /* =========================
      BADGES / FLAGS
@@ -1240,12 +1240,12 @@ const cars = [
     featured: false,
     discountPercent: 0,
     condition: "Used",
-    year: 2019,
+    year: 2018,
 
     /* =========================
      BASIC DISPLAY INFO (Listing)
   ========================== */
-    title: "Hyundai Sonata Sport 2.4L 2019",
+    title: "Hyundai Sonata Sport 2.4L 2018",
     make: "Hyundai",
     model: "Sonata Sport 2.4L",
     bodyType: "Sedan",
@@ -1349,8 +1349,8 @@ const cars = [
     /* =========================
      IDENTIFICATION
   ========================== */
-    id: "mercedes-benz-300ce-24-1980",
-    slug: "mercedes-benz-300ce-24-1980",
+    id: "mercedes-benz-300ce-24-1992",
+    slug: "mercedes-benz-300ce-24-1992",
 
     /* =========================
      BADGES / FLAGS
@@ -1358,12 +1358,12 @@ const cars = [
     featured: true,
     discountPercent: 0,
     condition: "Used",
-    year: 1980,
+    year: 1992,
 
     /* =========================
      BASIC DISPLAY INFO (Listing)
   ========================== */
-    title: "Mercedes-Benz 300CE-24 1980",
+    title: "Mercedes-Benz 300CE-24 1992",
     make: "Mercedes-Benz",
     model: "300CE-24",
     bodyType: "Coupe",
@@ -1730,8 +1730,8 @@ const cars = [
     /* =========================
      IDENTIFICATION
   ========================== */
-    id: "toyota-mark-ii-grande-2000",
-    slug: "toyota-mark-ii-grande-2000",
+    id: "toyota-mark-ii-grande-1995",
+    slug: "toyota-mark-ii-grande-1995",
 
     /* =========================
      BADGES / FLAGS
@@ -1739,12 +1739,12 @@ const cars = [
     featured: false,
     discountPercent: 0,
     condition: "Used",
-    year: 2000,
+    year: 1995,
 
     /* =========================
      BASIC DISPLAY INFO (Listing)
   ========================== */
-    title: "Toyota Mark II Grande TwinCam24 2000",
+    title: "Toyota Mark II Grande TwinCam24 1995",
     make: "Toyota",
     model: "Mark II Grande TwinCam24",
     bodyType: "Sedan",
