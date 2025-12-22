@@ -10,7 +10,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
                 <div className="header-lower">
                     <div className="themesflat-container w1700">
                         <div className="row">
-                            <div className="col-lg-12">
+                            <div className="col-lg-12 ">
                                 <div className="inner-container flex justify-space align-center">
                                     {/* Logo Box */}
                                     <div className="logo-box flex">

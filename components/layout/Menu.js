@@ -28,17 +28,31 @@ export default function Menu() {
                         <li className={pathname == "/listing-details" ? "current" : ""}><Link href="/listing-details">Listings Details</Link></li>
                     </ul> */}
                 </li>
-                <li className={pathname == "/services" ? "current" : ""}>
+                {/* <li className={pathname == "/services" ? "current" : ""}>
                     <Link href="/services">Services</Link>
-                    {/* <ul>
+                    <ul>
                         <li className={pathname == "/dashboard" ? "current" : ""}><Link href="/dashboard">Dashboard</Link></li>
                         <li className={pathname == "/my-inventory" ? "current" : ""}><Link href="/my-inventory">My Inventory</Link></li>
                         <li className={pathname == "/addcart" ? "current" : ""}><Link href="/addcart">Add car</Link></li>
                         <li className={pathname == "/seller-profile" ? "current" : ""}><Link href="/seller-profile">Seller Profile</Link></li>
                         <li className={pathname == "/dealer-details" ? "current" : ""}><Link href="/dealer-details">Dealer Detail</Link></li>
                         <li className={pathname == "/404" ? "current" : ""}><Link href="/404">404</Link></li>
-                    </ul> */}
+                    </ul>
+                </li> */}
+
+                 <li className="dropdown2">
+                    <Link href="/services">Services</Link>
+                    <ul>
+                        <li className={pathname == "/showroom" ? "current" : ""}>
+                            <Link href="/showroom">Showroom</Link>
+                        </li>
+                        <li  className={pathname == "/detailing-center" ? "current" : ""}><Link href="/detailing-center">Detailing Center</Link>
+                        </li>
+                        <li className={pathname == "/garage" ? "current" : ""}><Link href="/garage">Garage</Link></li>
+                  
+                    </ul>
                 </li>
+
                 {/* <li className="dropdown"><Link href="/#">News </Link>
                     <ul>
                         <li className={pathname == "/blog" ? "current" : ""}><Link href="/blog">Blog List</Link></li>

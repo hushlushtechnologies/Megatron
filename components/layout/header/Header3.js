@@ -98,17 +98,23 @@ export default function Header3({
                                                             <li><Link href="/listing-details">Listings Details</Link></li>
                                                         </ul> */}
                           </li>
-                          <li className="dropdown">
+                          <li className="dropdown2">
                             <Link href="/services">Services</Link>
                             <ul>
-                              {/* <li><Link href="/dashboard">Dashboard</Link></li>
-                                                            <li><Link href="/my-inventory">My Inventory</Link></li>
-                                                            <li><Link href="/addcart">Add car</Link></li>
-                                                            <li><Link href="/seller-profile">Seller Profile</Link></li>
-                                                            <li><Link href="/dealer-details">Dealer Detail</Link></li>
-                                                            <li><Link href="/404">404</Link></li> */}
+                              <li>
+                                <Link href="/showroom">Showroom</Link>
+                              </li>
+                              <li>
+                                <Link href="/detailing-center">
+                                  Detailing Center
+                                </Link>
+                              </li>
+                              <li>
+                                <Link href="/garage">Garage</Link>
+                              </li>
                             </ul>
                           </li>
+
                           {/* <li className="dropdown2"><Link href="/#">News </Link>
                                                         <ul>
                                                             <li><Link href="/blog">Blog List</Link></li>
