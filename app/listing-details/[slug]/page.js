@@ -184,7 +184,7 @@ Hi, I am contacting from Optimus Megatron Cars website.
                           <span className="text-white">Compare</span>
                         </Link>
                       </div>
-                      <div className="price-wrap flex text-white">
+                      {/* <div className="price-wrap flex text-white">
                         <p className="price-sale text-white">
                           {Number(car.salePrice).toLocaleString()}
                           {car.currency}
@@ -192,7 +192,7 @@ Hi, I am contacting from Optimus Megatron Cars website.
                         <p className="price text-warning">
                           {Number(car.price).toLocaleString()} {car.currency}
                         </p>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
