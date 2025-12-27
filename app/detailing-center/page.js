@@ -7,7 +7,7 @@ import {
   FaTint,
   FaCouch,
 } from "react-icons/fa";
-
+  
 export const metadata = {
   title: "Top Used Car Dealer in Dubai UAE | Optimus Megatron Cars",
   description:
