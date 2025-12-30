@@ -294,7 +294,7 @@ const cars = [
   ========================== */
     quickSpecs: {
       fuel: "Petrol",
-      mileage: "40,000 km",
+      mileage: "120,000 miles",
       transmission: "Automatic",
     },
 
@@ -305,7 +305,7 @@ const cars = [
       stockNumber: "MZ32019",
       vin: "JM1BPBLM8K1134567", // placeholder VIN
       year: 2019,
-      mileage: "120,000 km",
+      mileage: "120,000 miles",
       transmission: "Automatic",
       engineSize: "2.5L",
       driveType: "AWD",
@@ -649,8 +649,6 @@ const cars = [
       "/assets/images/porsche/porsche (1).jpg",
       "/assets/images/porsche/porsche (2).jpg",
       "/assets/images/porsche/porsche (3).jpg",
-      "/assets/images/porsche/porsche (11).jpg",
-      "/assets/images/porsche/porsche (14).jpg",
       "/assets/images/porsche/porsche (4).jpg",
       "/assets/images/porsche/porsche (5).jpg",
       "/assets/images/porsche/porsche (6).jpg",
@@ -790,7 +788,7 @@ const cars = [
   ========================== */
     quickSpecs: {
       fuel: "Petrol",
-      mileage: "81,909 miles",
+      mileage: "131,000 miles",
       transmission: "Automatic",
     },
 
@@ -1170,7 +1168,7 @@ const cars = [
       stockNumber: "RRE2021",
       vin: "SALZJ2FX1NH167442",
       year: 2021,
-      mileage: "64,422 miles",
+      mileage: "64,500 miles",
       transmission: "9-speed Automatic",
       engineSize: "2.0L Ingenium Turbo I4",
       driveType: "AWD",
@@ -1409,7 +1407,7 @@ const cars = [
   ========================== */
     quickSpecs: {
       fuel: "Petrol",
-      mileage: "59,087 km",
+      mileage: "60,000 Km",
       transmission: "Manual / Automatic",
     },
 
@@ -1420,14 +1418,14 @@ const cars = [
       stockNumber: "MB300CE24",
       vin: "WDB1240511B535797",
       year: 1980,
-      mileage: "59,087 km",
+      mileage: "60,000 Km",
       transmission: "Manual / Automatic",
       engineSize: "3.0L Inline-6",
       driveType: "FWD",
       cylinders: 6,
       fuelType: "Petrol",
       doors: 2,
-      color: "Classic Silver",
+      color: "Maroon",
       seats: 4,
       cityMPG: null,
       highwayMPG: null,
@@ -1659,7 +1657,7 @@ const cars = [
   ========================== */
     quickSpecs: {
       fuel: "Petrol",
-      mileage: "64,174 miles",
+      mileage: "64,000 miles",
       transmission: "7-speed Automatic",
     },
 
@@ -1670,14 +1668,14 @@ const cars = [
       stockNumber: "NPN2022",
       vin: "JN8AY2DA1N9391615",
       year: 2022,
-      mileage: "64,174 miles",
+      mileage: "64,000 miles",
       transmission: "7-speed Automatic",
       engineSize: "5.6L V8",
       driveType: "4WD",
       cylinders: 8,
       fuelType: "Petrol",
       doors: 5,
-      color: "White",
+      color: "Black",
       seats: 7,
       cityMPG: 13,
       highwayMPG: 18,
@@ -2169,10 +2167,10 @@ const cars = [
     stockNumber: "BMW318I1998",
     vin: "WBAAB12345EXAMPLE",
     year: 1998,
-    mileage: "77,603 miles",
+    mileage: "77,050 miles",
     transmission: "Automatic",
     engineSize: "1.8L",
-    driveType: "2WD",
+    driveType: "FWD",
     cylinders: 4,
     fuelType: "Petrol",
     doors: 4,
@@ -2540,7 +2538,7 @@ const cars = [
   ========================== */
   quickSpecs: {
     fuel: "Petrol",
-    mileage: "128,000 miles",
+    mileage: "2,06,000 KM",
     transmission: "Automatic",
   },
 
@@ -2551,7 +2549,7 @@ const cars = [
     stockNumber: "WRANGLER2014",
     vin: "1C4BJWEG8ELXXXXXX",
     year: 2014,
-    mileage: "128,000 miles",
+    mileage: "2,06,000 KM",
     transmission: "Automatic",
     engineSize: "3.6L V6",
     driveType: "4WD",
@@ -2791,7 +2789,7 @@ const cars = [
   ========================== */
   quickSpecs: {
     fuel: "Petrol",
-    mileage: "68,973 miles",
+    mileage: "111,000 miles",
     transmission: "Automatic",
   },
 
@@ -2802,7 +2800,7 @@ const cars = [
     stockNumber: "S4002017",
     vin: "WDDUG6EB9HAEXAMPLE",
     year: 2017,
-    mileage: "68,973 miles",
+    mileage: "111,000 miles",
     transmission: "Automatic",
     engineSize: "3.0L V6",
     driveType: "2WD",
@@ -3053,7 +3051,7 @@ const cars = [
   ========================== */
   quickSpecs: {
     fuel: "Petrol",
-    mileage: "47,328 miles",
+    mileage: "47,000 miles",
     transmission: "Automatic",
   },
 
@@ -3064,7 +3062,7 @@ const cars = [
     stockNumber: "SONATASP2018",
     vin: "5NPE34AF8JHXXXXXX",
     year: 2018,
-    mileage: "47,328 miles",
+    mileage: "47,000 miles",
     transmission: "Automatic",
     engineSize: "2.4L",
     driveType: "2WD",
