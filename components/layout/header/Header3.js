@@ -23,7 +23,7 @@ export default function Header3({
                   <li>
                     <Link href="/#">
                       <i className="icon-Group-11" />
-                      <p>Hot Line: +(971) 565049928</p>
+                      <p>Hot Line: +971 565049928</p>
                     </Link>
                   </li>
                   <li>

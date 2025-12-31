@@ -23,11 +23,12 @@ export default function ChristmasOffers() {
   return (
     <section className="christmas-offers mt-5">
       <div className="themesflat-container">
-        <div className="heading-section text-center mb-40">
-          <span className="sub-title">🎄 Christmas Specials</span>
-          <h2 className="title">Festive Car Deals</h2>
-          <p>Celebrate Christmas with exclusive discounts on premium used cars</p>
-        </div>
+       <div className="heading-section text-center mb-40">
+  <span className="sub-title">🎉 New Year Specials</span>
+  <h2 className="title">New Year Car Deals</h2>
+  <p>Start the New Year with exclusive offers on premium used cars</p>
+</div>
+
 
         <div className="row">
           {offers.map((offer, index) => (
