@@ -2,7 +2,7 @@
 import ChristmasSnow from "@/components/elements/Snowfall"
 import "/public/assets/css/magnific-popup.min.css"
 import "/public/assets/css/style.css"
-
+import Script from "next/script";
 
 import { DM_Sans, Plus_Jakarta_Sans } from 'next/font/google'
 import SantaWaving from "@/components/elements/SantaWaving"
@@ -40,7 +40,7 @@ const dm = DM_Sans({
 
 
 
-0
+
  export const metadata = {
   title: "Best Used Car Dealer in Dubai | Premium Pre-Owned Cars",
   description:
@@ -73,13 +73,39 @@ const dm = DM_Sans({
 
 
 export default function RootLayout({ children }) {
-    return (
-        <html lang="en">
-            <body className={`body counter-scroll ${dm.variable} ${jakarta.variable}`}>
-                <WhatsAppFloat/>
-                <SantaWaving/>
-                  <ChristmasSnow/>
-                {children}</body>
-        </html>
-    )
+  return (
+    <html lang="en">
+      <head>
+        {/* TikTok Pixel */}
+        <Script id="tiktok-pixel" strategy="afterInteractive">
+          {`
+!function (w, d, t) {
+  w.TiktokAnalyticsObject=t;
+  var ttq=w[t]=w[t]||[];
+  ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"];
+  ttq.setAndDefer=function(t,e){
+    t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}
+  };
+  for(var i=0;i<ttq.methods.length;i++) ttq.setAndDefer(ttq,ttq.methods[i]);
+  ttq.load=function(e){
+    var n=document.createElement("script");
+    n.async=true;
+    n.src="https://analytics.tiktok.com/i18n/pixel/events.js?sdkid="+e+"&lib=ttq";
+    document.head.appendChild(n);
+  };
+  ttq.load('D5BOA63C77U9GN88CKMG');
+  ttq.page();
+}(window, document, 'ttq');
+          `}
+        </Script>
+      </head>
+
+      <body className={`body counter-scroll ${dm.variable} ${jakarta.variable}`}>
+        <WhatsAppFloat />
+        <SantaWaving />
+        <ChristmasSnow />
+        {children}
+      </body>
+    </html>
+  );
 }
