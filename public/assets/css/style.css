@@ -10381,3 +10381,141 @@ a.mapboxgl-ctrl-logo {
   background: #facc15;
   color: #000;
 }
+
+
+.box-cars {
+  width: 420px;          /* control width */
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.box-cars img {
+  width: 100%;
+  height: auto;         /* keeps Instagram ratio */
+  object-fit: contain; /* no crop */
+}
+
+
+/* ===== WEDNESDAY OFFER SLIDE ===== */
+.tf-slide-offer .offer-layout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+/* LEFT CONTENT */
+.offer-content {
+  max-width: 520px;
+}
+
+.offer-badge {
+  background: #c9a24d;
+  color: #000;
+  padding: 6px 16px;
+  border-radius: 20px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.offer-title {
+  font-size: 54px;
+  line-height: 1.1;
+}
+
+.offer-actions .button_main_inner {
+  margin-top: 20px;
+}
+
+/* CONTACT */
+.offer-contact {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 14px;
+  color: #ddd;
+}
+
+/* RIGHT POSTER */
+.offer-poster {
+  position: relative;
+  width: 450px;
+  max-width: 100%;
+}
+
+.offer-poster img {
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+  object-fit: contain;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45);
+}
+
+/* OFFER TAG */
+.offer-tag {
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  background: #c9a24d;
+  color: #000;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: 800;
+}
+
+.offer-tag p {
+  font-size: 28px;
+  line-height: 1;
+}
+
+.offer-tag span {
+  font-size: 12px;
+}
+
+/* DARK OVERLAY */
+.overlay.dark {
+  background: rgba(0, 0, 0, 0.65);
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 991px) {
+  .tf-slide-offer .offer-layout {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .offer-content {
+    max-width: 100%;
+  }
+
+  .offer-poster {
+    width: 260px;
+    margin-top: 25px;
+  }
+
+  .offer-tag {
+    top: -15px;
+    right: -15px;
+    width: 70px;
+    height: 70px;
+  }
+}
+
+
+.widget-tf-slider {
+  position: relative;
+  overflow: hidden;
+}
+
+.tf-slide-item {
+  min-height: 90vh;
+  display: flex;
+  align-items:center;
+}

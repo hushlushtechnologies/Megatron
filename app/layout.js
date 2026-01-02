@@ -42,7 +42,7 @@ const dm = DM_Sans({
 
 0
  export const metadata = {
-  title: "Megatron Car – Best Used Car Dealer in Dubai | Premium Pre-Owned Cars",
+  title: "Best Used Car Dealer in Dubai | Premium Pre-Owned Cars",
   description:
     "Megatron Car is a trusted used car dealer offering pre-owned luxury vehicles, premium used cars, and verified used cars for sale in Dubai and UAE. Buy used cars with confidence at the best used car prices.",
   keywords: [
