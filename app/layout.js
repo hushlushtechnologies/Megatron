@@ -87,8 +87,8 @@ export default function RootLayout({ children }) {
         className={`body counter-scroll ${dm.variable} ${jakarta.variable}`}
       >
         <WhatsAppFloat />
-        <SantaWaving />
-        <ChristmasSnow />
+        {/* <SantaWaving /> */}
+        {/* <ChristmasSnow /> */}
         {children}
       </body>
     </html>
