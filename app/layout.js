@@ -81,6 +81,11 @@ export default function RootLayout({ children }) {
         `}
       </Script>
 
+      <meta
+        name="google-site-verification"
+        content="jTxk_Ia9TdGyfeOCrcaJMjvMbYVoFKFmPsdMUtCz7u0"
+      />
+
       <head />
 
       <body
