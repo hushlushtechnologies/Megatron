@@ -17,7 +17,7 @@ export default function VideoPopup({ style }) {
                     <i className="icon-Polygon-6" />
                 </a>
             }
-            <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="nTvj7JMN-jw" onClose={() => setOpen(false)} />
+            <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="9E8q0RF8TsE" onClose={() => setOpen(false)} />
 
 
         </>

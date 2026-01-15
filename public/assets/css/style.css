@@ -984,7 +984,8 @@ body.modal-open {
 /*------------ Header Style 01 ---------------- */
 /* #B8962E   #C9A24D */
 .top-bar {
-  background-color: #D4AF37;  
+  /* background-color: #D4AF37;   */
+  background-color: #000000;  
   padding: 10px 0px;
 }
 .top-bar .list-infor-topbar {
@@ -2718,7 +2719,7 @@ ul.social-icon li a i:hover {
 }
 .widget-tf-slider .slider-wrap .tf-slide-item .slide-item-content > .box {
   position: absolute;
-  left: 8.5%;
+  left: 14.5%;
   rotate: -90deg;
   top: 0;
   bottom: 0;
@@ -2917,7 +2918,7 @@ ul.social-icon li a i:hover {
   height: 100%;
   top: 0;
   left: 0;
-  object-fit: cover;
+  object-fit: contain
 }
 .widget-tf-slider-v2 .slider-wrap .tf-slider-item .slide-content {
   padding-top: 216px;
@@ -10519,3 +10520,13 @@ a.mapboxgl-ctrl-logo {
   display: flex;
   align-items:center;
 }
+
+.widget-tf-slider,
+.widget-tf-slider .swiper,
+.widget-tf-slider .swiper-wrapper,
+.widget-tf-slider .swiper-slide {
+  height: 100vh;
+}
+
+
+ 
