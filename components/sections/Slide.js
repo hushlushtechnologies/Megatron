@@ -90,7 +90,7 @@ export default function Slide() {
 
         {/* ================= SLIDE 2 — WEDNESDAY OFFER ================= */}
      {/* ================= SLIDE 2 — IMAGE ONLY ================= */}
-<SwiperSlide>
+{/* <SwiperSlide>
   <div className="tf-slide-item">
     <div className="slide-item-image">
       <img
@@ -100,7 +100,31 @@ export default function Slide() {
       <div className="overlay" />
     </div>
   </div>
+</SwiperSlide> */}
+
+ <SwiperSlide>
+  <div className="tf-slide-item image-only-slide">
+    <div className="slide-item-image second-slide-image">
+      <picture>
+        {/* MOBILE – portrait image */}
+        <source
+          media="(max-width: 768px)"
+          srcSet="/assets/images/slide/offer-portrait.png"
+        />
+
+        {/* DESKTOP – landscape image */}
+        <img
+          src="/assets/images/slide/offer.jpg"
+          alt="Car Showroom Offer"
+        />
+      </picture>
+
+      <div className="overlay" />
+    </div>
+  </div>
 </SwiperSlide>
+
+
 
       </Swiper>
     </section>
