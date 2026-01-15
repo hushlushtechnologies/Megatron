@@ -114,7 +114,7 @@ export default function Slide() {
 
         {/* DESKTOP – landscape image */}
         <img
-          src="/assets/images/slide/offer.jpg"
+          src="/assets/images/slide/offers.jpg"
           alt="Car Showroom Offer"
         />
       </picture>
