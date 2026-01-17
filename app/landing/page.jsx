@@ -69,22 +69,24 @@ export default function UsedCarsLanding() {
   return (
     <div className="used-landing">
       {/* HERO */}
-     <section className="used-hero">
-  {/* FULL SCREEN IMAGE */}
+   <section className="used-hero">
+
+  {/* LOGO */}
+  <img
+    src="/assets/images/logo/logo5.png"
+    alt="Logo"
+    className="hero-logo"
+  />
+
+  {/* IMAGE */}
   <img
     src="/assets/images/landing/landing.png"
     alt="Used Car"
     className="hero-car"
   />
 
-  {/* CONTENT OVER IMAGE */}
+  {/* CONTENT BELOW IMAGE */}
   <div className="hero-content">
-    <img
-      src="/assets/images/logo/logo5.png"
-      alt="Logo"
-      className="hero-logo"
-    />
-
     <span className="hero-badge">Trusted Used Car Dealer</span>
 
     <h1>Buy Certified Used Cars in UAE</h1>
@@ -97,7 +99,13 @@ export default function UsedCarsLanding() {
       Get Best Deals
     </a>
   </div>
+
 </section>
+
+
+  
+
+
 
 
       {/* TRUST BAR */}
