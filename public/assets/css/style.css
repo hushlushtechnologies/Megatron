@@ -10551,3 +10551,153 @@ a.mapboxgl-ctrl-logo {
     object-fit: contain;
   }
 }
+
+
+ /* ===== WRAPPER ===== */
+.used-landing {
+  font-family: "Inter", sans-serif;
+}
+
+/* ===== HERO ===== */
+.used-hero {
+  background: linear-gradient(135deg, #000, #0b0b0b);
+  color: #fff;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 760px;
+  margin: auto;
+}
+
+.hero-badge {
+  display: inline-block;
+  background: rgba(245, 179, 1, 0.15);
+  color: #f5b301;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.used-hero h1 {
+  font-size: 42px;
+  line-height: 1.2;
+  margin-bottom: 14px;
+}
+
+.used-hero p {
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+.hero-cta-group {
+  margin-top: 26px;
+}
+
+.used-cta {
+  display: inline-block;
+  background: #f5b301;
+  color: #000;
+  padding: 16px 36px;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.hero-subtext {
+  display: block;
+  margin-top: 10px;
+  font-size: 13px;
+  opacity: 0.7;
+}
+
+/* ===== TRUST BAR ===== */
+.used-trust {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 14px;
+  padding: 35px 20px;
+  background: #f6f6f6;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* ===== FORM SECTION ===== */
+.used-form-section {
+  background: #0a0a0a;
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.form-card {
+  background: #111;
+  border-radius: 16px;
+  padding: 40px 30px;
+  max-width: 420px;
+  width: 100%;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+
+.form-card h2 {
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.form-card p {
+  color: #aaa;
+  margin-bottom: 24px;
+}
+
+/* ===== FORM ===== */
+.used-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.used-form input,
+.used-form textarea {
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid #333;
+  background: #0b0b0b;
+  color: #fff;
+  font-size: 15px;
+}
+
+.used-form input::placeholder,
+.used-form textarea::placeholder {
+  color: #888;
+}
+
+.used-form button {
+  margin-top: 10px;
+  background: linear-gradient(135deg, #f5b301, #ffd24c);
+  color: #000;
+  padding: 14px;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.used-form button:hover {
+  opacity: 0.9;
+}
+
+.form-note {
+  margin-top: 14px;
+  font-size: 12px;
+  color: #777;
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 768px) {
+  .used-hero h1 {
+    font-size: 32px;
+  }
+}
