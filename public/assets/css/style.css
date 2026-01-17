@@ -10614,7 +10614,7 @@ a.mapboxgl-ctrl-logo {
 }
 
 /* ===== TRUST BAR ===== */
-.used-trust {
+/* .used-trust {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 14px;
@@ -10622,6 +10622,66 @@ a.mapboxgl-ctrl-logo {
   background: #f6f6f6;
   text-align: center;
   font-weight: 600;
+} */
+
+
+/* ===== TRUST SECTION ===== */
+
+/* ===== BLACK & GOLD TRUST SECTION ===== */
+.used-trust.dark {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 22px;
+  padding: 70px 20px;
+  background: linear-gradient(180deg, #050505, #0b0b0b);
+}
+
+/* Card */
+.used-trust.dark .trust-card {
+  background: linear-gradient(145deg, #0f0f0f, #1a1a1a);
+  border-radius: 18px;
+  padding: 32px 24px;
+  text-align: center;
+  border: 1px solid rgba(245, 179, 1, 0.2);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+  transition: all 0.35s ease;
+}
+
+/* Hover effect */
+.used-trust.dark .trust-card:hover {
+  transform: translateY(-8px);
+  border-color: #f5b301;
+  box-shadow: 0 30px 70px rgba(245, 179, 1, 0.25);
+}
+
+/* Icon */
+.used-trust.dark .trust-icon {
+  font-size: 38px;
+  margin-bottom: 16px;
+  display: inline-block;
+  color: #f5b301;
+}
+
+/* Title */
+.used-trust.dark h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #f5b301;
+  font-weight: 600;
+}
+
+/* Description */
+.used-trust.dark p {
+  font-size: 14px;
+  color: #cfcfcf;
+  line-height: 1.5;
+}
+
+/* Mobile tweaks */
+@media (max-width: 768px) {
+  .used-trust.dark {
+    padding: 50px 16px;
+  }
 }
 
 /* ===== FORM SECTION ===== */
@@ -10642,7 +10702,7 @@ a.mapboxgl-ctrl-logo {
   text-align: center;
 }
 
-.form-card h2 {
+.form-card h3 {
   color: #fff;
   margin-bottom: 8px;
 }
@@ -10705,4 +10765,15 @@ a.mapboxgl-ctrl-logo {
 .hero-logo {
   width: 140px;
   margin: 0 auto 20px;
+}
+
+.form-error {
+  color: #ff6b6b;
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.used-form button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
 }

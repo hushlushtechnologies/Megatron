@@ -2,7 +2,7 @@ import ChristmasSnow from "@/components/elements/Snowfall";
 import "/public/assets/css/magnific-popup.min.css";
 import "/public/assets/css/style.css";
 import Script from "next/script";
-
+import { Toaster } from "react-hot-toast";
 import { DM_Sans, Plus_Jakarta_Sans } from "next/font/google";
 import SantaWaving from "@/components/elements/SantaWaving";
 import WhatsAppFloat from "@/components/elements/Whatsapp";
@@ -91,6 +91,7 @@ export default function RootLayout({ children }) {
       <body
         className={`body counter-scroll ${dm.variable} ${jakarta.variable}`}
       >
+         <Toaster position="top-right" />
         <WhatsAppFloat />
         {/* <SantaWaving /> */}
         {/* <ChristmasSnow /> */}
