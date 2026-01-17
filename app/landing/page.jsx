@@ -1,4 +1,4 @@
- "use client";
+"use client";
 
 import { useState } from "react";
 
@@ -35,11 +35,18 @@ Message: ${form.message}
       {/* HERO */}
       <section className="used-hero">
         <div className="hero-content">
+          {/* LOGO */}
+          <img
+            src="/assets/images/logo/logo5.png"
+            alt="Used Car Dealer Logo"
+            className="hero-logo"
+          /> <br/>
+
           <span className="hero-badge">Trusted Used Car Dealer</span>
           <h1>Buy Certified Used Cars in UAE</h1>
           <p>
-            Transparent pricing • Verified cars • Instant assistance  
-            Find the perfect car without stress.
+            Transparent pricing • Verified cars • Instant assistance Find the
+            perfect car without stress.
           </p>
 
           <div className="hero-cta-group">
