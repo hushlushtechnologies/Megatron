@@ -69,19 +69,36 @@ export default function UsedCarsLanding() {
   return (
     <div className="used-landing">
       {/* HERO */}
-        <section className="used-hero">
-        <div className="hero-content">
-          <img src="/assets/images/logo/logo5.png" alt="Logo" className="hero-logo" /> <br/>
-          <span className="hero-badge">Trusted Used Car Dealer</span>
-          <h1>Buy Certified Used Cars in UAE</h1>
-          <p>
-            Transparent pricing • Verified cars • Instant assistance
-          </p>
-          <a href="#lead-form" className="used-cta">
-            Get Best Deals
-          </a>
-        </div>
-      </section>
+     <section className="used-hero">
+  {/* FULL SCREEN IMAGE */}
+  <img
+    src="/assets/images/landing/landing.png"
+    alt="Used Car"
+    className="hero-car"
+  />
+
+  {/* CONTENT OVER IMAGE */}
+  <div className="hero-content">
+    <img
+      src="/assets/images/logo/logo5.png"
+      alt="Logo"
+      className="hero-logo"
+    />
+
+    <span className="hero-badge">Trusted Used Car Dealer</span>
+
+    <h1>Buy Certified Used Cars in UAE</h1>
+
+    <p>
+      Transparent pricing • Verified cars • Instant assistance
+    </p>
+
+    <a href="#lead-form" className="used-cta">
+      Get Best Deals
+    </a>
+  </div>
+</section>
+
 
       {/* TRUST BAR */}
  {/* TRUST BAR */}

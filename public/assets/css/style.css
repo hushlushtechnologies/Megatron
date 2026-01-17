@@ -10559,7 +10559,7 @@ a.mapboxgl-ctrl-logo {
 }
 
 /* ===== HERO ===== */
-.used-hero {
+/* .used-hero {
   background: linear-gradient(135deg, #000, #0b0b0b);
   color: #fff;
   padding: 100px 20px;
@@ -10569,7 +10569,55 @@ a.mapboxgl-ctrl-logo {
 .hero-content {
   max-width: 760px;
   margin: auto;
+} */
+
+/* HERO SECTION */
+.used-hero {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* FULL SCREEN */
+  overflow: hidden;
 }
+
+/* FULL SCREEN IMAGE */
+.hero-car {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;   /* 🔥 KEY LINE */
+  z-index: 1;
+}
+
+/* DARK OVERLAY (optional but recommended) */
+.used-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.65);
+  z-index: 2;
+}
+
+/* CONTENT ON TOP */
+.hero-content {
+  position: relative;
+  z-index: 3;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  padding: 0 20px;
+}
+
+/* LOGO */
+.hero-logo {
+  width: 140px;
+  margin-bottom: 16px;
+}
+
 
 .hero-badge {
   display: inline-block;
@@ -10756,7 +10804,7 @@ a.mapboxgl-ctrl-logo {
 }
 
 /* ===== MOBILE ===== */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .used-hero h1 {
     font-size: 32px;
   }
@@ -10765,7 +10813,7 @@ a.mapboxgl-ctrl-logo {
 .hero-logo {
   width: 140px;
   margin: 0 auto 20px;
-}
+} */
 
 .form-error {
   color: #ff6b6b;
@@ -10777,3 +10825,27 @@ a.mapboxgl-ctrl-logo {
   opacity: 0.6;
   cursor: not-allowed;
 }
+
+
+
+/* HERO CAR IMAGE */
+/* .hero-car {
+  width: 100%;
+  max-width: 520px;
+  margin: 20px auto 10px;
+  display: block;
+  filter: drop-shadow(0 30px 60px rgba(245, 179, 1, 0.35));
+  transition: transform 0.4s ease;
+}
+ 
+.hero-car:hover {
+  transform: translateY(-6px) scale(1.02);
+}
+
+ 
+@media (max-width: 768px) {
+  .hero-car {
+    max-width: 90%;
+    margin: 16px auto;
+  }
+} */
