@@ -23,8 +23,7 @@ export default function UsedCarsLanding() {
   // ✅ VALIDATION
   const validateForm = () => {
     if (form.name.length < 3) return "Please enter your full name";
-    if (!/^\S+@\S+\.\S+$/.test(form.email))
-      return "Please enter a valid email";
+    if (!/^\S+@\S+\.\S+$/.test(form.email)) return "Please enter a valid email";
     if (!/^[0-9+ ]{7,15}$/.test(form.phone))
       return "Please enter a valid phone number";
     if (form.message.length < 5)
@@ -53,93 +52,109 @@ export default function UsedCarsLanding() {
           phone: form.phone,
           message: form.message,
         },
-        "_DVTHeE3c0_9ZfOcp"
+        "_DVTHeE3c0_9ZfOcp",
       );
 
-         toast.success("Enquiry sent successfully! We will contact you shortly.");
+      toast.success("Enquiry sent successfully! We will contact you shortly.");
       setForm({ name: "", email: "", phone: "", message: "" });
     } catch (err) {
-         toast.error("Something went wrong. Please try again.");
+      toast.error("Something went wrong. Please try again.");
     } finally {
       setLoading(false);
     }
   };
 
-
   return (
     <div className="used-landing">
       {/* HERO */}
-   <section className="used-hero">
+      <section className="used-hero">
+        {/* LOGO */}
+        <img
+          src="/assets/images/logo/logo5.png"
+          alt="Logo"
+          className="hero-logo"
+        />
 
-  {/* LOGO */}
-  <img
-    src="/assets/images/logo/logo5.png"
-    alt="Logo"
-    className="hero-logo"
-  />
+        {/* IMAGE */}
+        <img
+          src="/assets/images/landing/landing.png"
+          alt="Used Car"
+          className="hero-car"
+        />
 
-  {/* IMAGE */}
-  <img
-    src="/assets/images/landing/landing.png"
-    alt="Used Car"
-    className="hero-car"
-  />
+        {/* CONTENT BELOW IMAGE */}
+        {/* <div
+          className="hero-content"
+          style={{
+            backgroundImage: "url('/assets/images/landing/img2.WEBP')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+        >
+          <span className="hero-badge">Trusted Used Car Dealer</span>
 
-  {/* CONTENT BELOW IMAGE */}
+          <h1>Buy Certified Used Cars in UAE</h1>
+
+          <p>Transparent pricing • Verified cars • Instant assistance</p>
+
+          <a href="#lead-form" className="used-cta">
+            Get Best Deals
+          </a>
+        </div> */}
+      </section>
+
+ <section
+  className="hero-trust-section"
+  style={{
+    backgroundImage: "url('/assets/images/landing/img2.WEBP')",
+  }}
+>
+  {/* HERO CONTENT */}
   <div className="hero-content">
     <span className="hero-badge">Trusted Used Car Dealer</span>
 
     <h1>Buy Certified Used Cars in UAE</h1>
 
-    <p>
-      Transparent pricing • Verified cars • Instant assistance
-    </p>
+    <p>Transparent pricing • Verified cars • Instant assistance</p>
 
     <a href="#lead-form" className="used-cta">
       Get Best Deals
     </a>
   </div>
 
-</section>
+  {/* TRUST BADGES */}
+  <div className="hero-trust">
+    <div className="trust-card">
+      <span className="trust-icon">🚗</span>
+      <h4>100% Verified Cars</h4>
+      <p>Every vehicle is inspected and certified.</p>
+    </div>
 
+    <div className="trust-card">
+      <span className="trust-icon">💰</span>
+      <h4>No Hidden Charges</h4>
+      <p>Transparent pricing with full clarity.</p>
+    </div>
 
-  
+    <div className="trust-card">
+      <span className="trust-icon">🏦</span>
+      <h4>Finance Assistance</h4>
+      <p>Easy approvals with top banks.</p>
+    </div>
 
-
-
-
-      {/* TRUST BAR */}
- {/* TRUST BAR */}
-<section className="used-trust dark">
-  <div className="trust-card">
-    <span className="trust-icon">🚗</span>
-    <h4>100% Verified Cars</h4>
-    <p>Every vehicle is inspected and certified.</p>
-  </div>
-
-  <div className="trust-card">
-    <span className="trust-icon">💰</span>
-    <h4>No Hidden Charges</h4>
-    <p>Transparent pricing with full clarity.</p>
-  </div>
-
-  <div className="trust-card">
-    <span className="trust-icon">🏦</span>
-    <h4>Finance Assistance</h4>
-    <p>Easy approvals with top banks.</p>
-  </div>
-
-  <div className="trust-card">
-    <span className="trust-icon">🛠️</span>
-    <h4>After-Sales Support</h4>
-    <p>We support you even after purchase.</p>
+    <div className="trust-card">
+      <span className="trust-icon">🛠️</span>
+      <h4>After-Sales Support</h4>
+      <p>We support you even after purchase.</p>
+    </div>
   </div>
 </section>
-
-
-
+ 
       {/* FORM */}
-       <section id="lead-form" className="used-form-section">
+      <section id="lead-form" className="used-form-section"
+       style={{
+    backgroundImage: "url('/assets/images/landing/f2.jpg')",
+  }}>
         <div className="form-card">
           <h3>Send Your Requirement</h3>
 
