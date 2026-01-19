@@ -10641,12 +10641,12 @@ a.mapboxgl-ctrl-logo {
 /* ===== HERO CONTENT ===== */
 .hero-content {
   max-width: 900px;
-  margin: 0 auto 60px;
+  margin: 0 auto 20px;
 }
 
 .hero-content h1 {
   font-size: 42px;
-  margin-bottom: 14px;
+  /* margin-bottom: 14px; */
 }
 
 .hero-content p {

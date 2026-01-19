@@ -106,7 +106,7 @@ export default function UsedCarsLanding() {
  <section
   className="hero-trust-section"
   style={{
-    backgroundImage: "url('/assets/images/landing/img2.WEBP')",
+    backgroundImage: "url('/assets/images/landing/img2.webp')",
   }}
 >
   {/* HERO CONTENT */}
