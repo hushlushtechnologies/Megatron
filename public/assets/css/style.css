@@ -1920,7 +1920,7 @@ body.modal-open {
   left: 0;
   top: 0;
   width: 100%;
-  z-index: 989;
+  z-index:  999;
   transition: background ease 0.3s;
 }
 
@@ -2162,6 +2162,9 @@ body.modal-open {
   display: inline-block;
   border-radius: 5px;
 }
+ 
+
+
 .btn-main .button_main_inner {
   display: inline-block;
   background: #D4AF37;
@@ -10829,4 +10832,15 @@ a.mapboxgl-ctrl-logo {
   }
 } */
 
- 
+ /* ===== FIX MODAL VIDEO UNDER FIXED NAVBAR ===== */
+
+.video-below-navbar {
+  align-items: flex-start !important; /* stop vertical centering */
+  padding-top: 120px !important;      /* navbar height */
+  box-sizing: border-box;
+}
+
+/* ensure above navbar */
+.modal-video {
+  z-index: 999999 !important;
+}

@@ -19,28 +19,28 @@
 //             }
 //             <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="9E8q0RF8TsE" onClose={() => setOpen(false)} />
 
-
 //         </>
 //     )
 // }
 
-'use client'
-import { useState } from 'react'
-import ModalVideo from 'react-modal-video'
-import "../../node_modules/react-modal-video/css/modal-video.css"
+"use client";
+import { useState } from "react";
+import ModalVideo from "react-modal-video";
+import "../../node_modules/react-modal-video/css/modal-video.css";
 
 export default function VideoPopup({ style, onOpen, onClose }) {
-  const [isOpen, setOpen] = useState(false)
+  const [isOpen, setOpen] = useState(false);
 
   const handleOpen = () => {
-    setOpen(true)
-    onOpen?.()        // ⛔ stop swiper autoplay
-  }
+    setOpen(true);
+    
+    onOpen?.(); // ⛔ stop swiper autoplay
+  };
 
   const handleClose = () => {
-    setOpen(false)
-    onClose?.()       // ▶ resume swiper autoplay
-  }
+    setOpen(false);
+    onClose?.(); // ▶ resume swiper autoplay
+  };
 
   return (
     <>
@@ -62,7 +62,17 @@ export default function VideoPopup({ style, onOpen, onClose }) {
         isOpen={isOpen}
         videoId="9E8q0RF8TsE"
         onClose={handleClose}
+         classNames={{
+    modalVideo: "modal-video",
+    modalVideoBody: "modal-video-body video-below-navbar",
+    modalVideoInner: "modal-video-inner",
+    modalVideoIframeWrap: "modal-video-movie-wrap",
+    modalVideoCloseBtn: "modal-video-close-btn",
+    modalVideoEffect: "modal-video-effect",
+    modalVideoClose: "modal-video-close"
+  }}
+         
       />
     </>
-  )
+  );
 }

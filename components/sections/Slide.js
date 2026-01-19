@@ -145,7 +145,7 @@ export default function Slide() {
   const swiperRef = useRef(null);
 
   return (
-    <section className="widget-tf-slider">
+    <section className="widget-tf-slider  ">
       <Swiper
         modules={[Autoplay, Pagination, Navigation]}
         slidesPerView={1}
@@ -162,9 +162,11 @@ export default function Slide() {
         className="slider-wrap"
         onSwiper={(swiper) => (swiperRef.current = swiper)}
       >
+
+        
         {/* ================= SLIDE 1 ================= */}
         <SwiperSlide>
-          <div className="tf-slide-item">
+          <div className="tf-slide-item ">
             <div className="slide-item-image">
               <img src="/assets/images/slide/p.jpg" alt="Used Cars" />
               <div className="overlay" />
@@ -186,16 +188,17 @@ export default function Slide() {
                     Go To Listing
                   </Link>
 
-                  <div
-                    className="video-wrap"
-                   
-                  >
-                    <VideoPopup
-                      style={2}
-                      onOpen={() => swiperRef.current?.autoplay.stop()}
-                      onClose={() => swiperRef.current?.autoplay.start()}
-                    />
-                  </div>
+                    <div
+                      className="video-wrap"
+                    
+                    >
+                      <VideoPopup
+                    
+                        style={2}
+                        onOpen={() => swiperRef.current?.autoplay.stop()}
+                        onClose={() => swiperRef.current?.autoplay.start()}
+                      />
+                    </div>
                 </div>
               </div>
 

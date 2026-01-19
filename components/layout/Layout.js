@@ -13,6 +13,7 @@ import Footer2 from './footer/Footer2'
 import Header1 from "./header/Header1"
 import Header2 from './header/Header2'
 import Header3 from "./header/Header3"
+
 export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumbTitle, children }) {
     const [scroll, setScroll] = useState(0)
     // Moblile Menu
