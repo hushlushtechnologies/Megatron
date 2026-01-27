@@ -220,7 +220,7 @@ export default function Slide() {
                   srcSet="/assets/images/slide/offer-portrait.png"
                 />
                 <img
-                  src="/assets/images/slide/offers.jpg"
+                  src="/assets/images/slide/offers.png"
                   alt="Car Showroom Offer"
                 />
               </picture>

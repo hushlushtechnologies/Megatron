@@ -4,17 +4,17 @@ import Link from "next/link";
 export default function ChristmasOffers() {
   const offers = [
     {
-      img: "/assets/images/christmax/offer1.jpg",
+      img: "/assets/images/christmax/0f.png",
       title: "Christmas Sale",
       subtitle: "Up to 20% OFF",
     },
     {
-      img: "/assets/images/christmax/offer2.jpg",
+      img: "/assets/images/christmax/0f2.png",
       title: "Year End Deals",
       subtitle: "Best Used Car Prices",
     },
     {
-      img: "/assets/images/christmax/offer3.jpg",
+      img: "/assets/images/christmax/0f3.png",
       title: "Limited Time Offer",
       subtitle: "Festive Discounts",
     },
