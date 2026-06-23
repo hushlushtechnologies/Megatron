@@ -43,7 +43,7 @@ status: "Available",
 
   quickSpecs: {
     fuel: "Petrol",
-    mileage: "6,790 miles",
+    mileage: "10,930 Km",
     transmission: "Automatic",
   },
 
@@ -2414,7 +2414,7 @@ status: "Available",
 
   quickSpecs: {
     fuel: "Petrol",
-    mileage: "66,423 miles",
+    mileage: "106,900 Km",
     transmission: "Automatic",
   },
 
@@ -4588,7 +4588,7 @@ status: "Available",
 
     quickSpecs: {
       fuel: "Petrol",
-      mileage: "120,000 miles",
+      mileage: "193,121 Km",
       transmission: "Automatic",
     },
 
@@ -4983,7 +4983,7 @@ status: "Available",
       stockNumber: "RRE2021",
       vin: "SALZJ2FX1NH167442",
       year: 2022,
-      mileage: "64,423 M",
+      mileage: "103,671 Km",
       transmission: "9-speed Automatic",
       engineSize: "2.0L Ingenium Turbo I4",
       driveType: "AWD",
@@ -5083,7 +5083,7 @@ status: "Available",
 
     quickSpecs: {
       fuel: "Petrol",
-      mileage: "47,328 miles",
+      mileage: "76,185 Km",
       transmission: "Automatic",
     },
 
@@ -5494,7 +5494,7 @@ status: "Available",
       stockNumber: "TM1995",
       vin: "CX813289437",
       year: 1995,
-      mileage: "55,000 mi",
+      mileage: "88,514 Km",
       transmission: "Automatic",
       engineSize: "2.0L Inline-6",
       driveType: "RWD",
@@ -6105,7 +6105,7 @@ status: "Available",
   ========================== */
     quickSpecs: {
       fuel: "Petrol",
-      mileage: "104,341 miles",
+      mileage: "167,930 Km",
       transmission: "Automatic",
     },
 
@@ -6421,7 +6421,7 @@ status: "Available",
   ========================== */
     quickSpecs: {
       fuel: "Petrol",
-      mileage: "47,00 miles",
+      mileage: "75,640 Km",
       transmission: "Automatic",
     },
 
