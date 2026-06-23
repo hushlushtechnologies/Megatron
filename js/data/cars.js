@@ -104,7 +104,7 @@ status: "Available",
 },
   {
   id: "chevrolet-silverado-2024",
-  slug: "chevrolet-silverado-2024",
+  slug: "chevrolet-silverado-2024-turbo",
  status: "Available",
   featured: true,
   discountPercent: 0,
@@ -4938,7 +4938,7 @@ status: "Available",
      PRICING
   ========================== */
     currency: "AED",
-    price: "122000", // not provided
+    price: 122000, // not provided
     salePrice: "120000", // not provided
 
     /* =========================
@@ -5221,7 +5221,7 @@ status: "Available",
   },
   {
     id: "chevrolet-silverado-2024",
-    slug: "chevrolet-silverado-2024",
+    slug: "chevrolet-silverado-2024-v8",
  status: "Available",
     featured: true,
     discountPercent: 0,
