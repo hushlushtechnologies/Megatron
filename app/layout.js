@@ -111,7 +111,6 @@ export const metadata = {
 //     </html>
 //   );
 // }
- 
 
 // export default function RootLayout({ children }) {
 //   return (
@@ -173,7 +172,6 @@ export const metadata = {
 //   );
 // }
 
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
@@ -185,21 +183,30 @@ export default function RootLayout({ children }) {
         />
       </head>
 
-      <body className={`body counter-scroll ${dm.variable} ${jakarta.variable}`}>
-        {/* Google Ads */}
+      <body
+        className={`body counter-scroll ${dm.variable} ${jakarta.variable}`}
+      >
+     
+        {/* Google Tag */}
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=AW-17693165640"
+          src="https://www.googletagmanager.com/gtag/js?id=G-MQDQZH5VGM"
           strategy="afterInteractive"
         />
 
-        <Script id="google-ads" strategy="afterInteractive">
+        <Script id="google-tag" strategy="afterInteractive">
           {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            window.gtag = gtag;
-            gtag('js', new Date());
-            gtag('config', 'AW-17693165640');
-          `}
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    window.gtag = gtag;
+
+    gtag('js', new Date());
+
+    // Google Analytics 4
+    gtag('config', 'G-MQDQZH5VGM');
+
+    // Google Ads
+    gtag('config', 'AW-17693165640');
+  `}
         </Script>
 
         {/* TikTok Pixel */}
